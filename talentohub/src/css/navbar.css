@@ -1,0 +1,7 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el navbar esté encima del contenido */
+  }
+  
