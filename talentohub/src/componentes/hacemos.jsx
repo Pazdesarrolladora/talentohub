@@ -1,6 +1,6 @@
 
 import "../css/quehacemos.css"
-const Quehacemos = () => {
+const Hacemos = () => {
   return (
     <>
     <h1 className="titulo">Talento HuB</h1>
@@ -9,4 +9,4 @@ const Quehacemos = () => {
   )
 }
 
-export default Quehacemos
+export default Hacemos

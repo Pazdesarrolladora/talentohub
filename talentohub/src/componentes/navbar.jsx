@@ -34,19 +34,15 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="paginasweb">
-                  Paginas Web
+                Portafolio
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="marketing">
-                  Marketing
+                  Contacto
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="portafolio">
-                  Portafolio
-                </a>
-              </li>
+              
             </ul>
             <a className="nav-link active m-1" aria-current="page" href="#">
             <FontAwesomeIcon icon={faFacebook} />   
