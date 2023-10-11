@@ -1,14 +1,17 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook,faInstagram,faLinkedin} from '@fortawesome/free-brands-svg-icons';
-import "../css/navbar.css"
+import "../css/navbar.css" 
+import TH from '../imagenes/TH.png'
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary ">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Navbar
-          </a>
+        <a className="navbar-brand" href="#">
+        <div className="logo">
+          <img className="logo-img" src={TH} alt="Logo" />
+        </div>
+      </a>
           <button
             className="navbar-toggler"
             type="button"
