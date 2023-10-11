@@ -6,6 +6,8 @@ import Portafolio from "./pages/portafolio"
 import Publicidad from "./pages/publicidad";
 import Crecimientodemarca from "./pages/crecimientodemarca";
 import Redessociales from "./pages/redessociales";
+import '../src/css/index.css'
+
 
 function App() {
   return (

@@ -5,3 +5,10 @@
     z-index: 1000; /* Asegura que el navbar esté encima del contenido */
   }
   
+ 
+
+.logo-img {
+  max-width: 80px; /* Ajusta el ancho máximo de la imagen según tus necesidades */
+  max-height: 40px; /* Ajusta la altura máxima de la imagen según tus necesidades */
+  /* Puedes agregar otros estilos según lo que necesites */
+}
