@@ -16,3 +16,73 @@ Cultivamos el crecimiento de tu marca mediante estrategias que van más allá de
 
 Gestión De Redes Sociales:
 En el vasto mundo de las redes sociales, no solo gestionamos tu presencia, sino que cultivamos comunidades. Creamos contenido cautivador, fomentamos conversaciones auténticas y construimos relaciones sólidas. Tu presencia en redes sociales no solo atrae seguidores, sino que también crea embajadores de marca que multiplican la resonancia de tu mensaje. 📱🤝
+
+
+
+**Lo que contiene cada servicio**
+
+1. Tienda Online E-commerce 🛒
+Diseño atractivo y funcional.
+Carrito de compras 🛍️.
+Catálogo de productos con descripciones detalladas.
+Proceso de pago seguro 💳.
+Integración con pasarelas de pago.
+Gestión de inventario 📊.
+Sistema de cupones y descuentos 🎁.
+Área de usuario para seguimiento de pedidos.
+Informes de ventas y análisis 📈.
+Integración con redes sociales.
+Diseño responsive para dispositivos móviles 📱.
+Configuración de impuestos y envíos 🚚.
+Tutorial online para administrar la página web 🖥️.
+
+
+2. Página Web 🌐
+Menú adaptable 📋.
+Galería de imágenes 📸.
+Información detallada sobre el proyecto o empresa ℹ️.
+Formulario de contacto ✉️.
+Vinculación con redes sociales.
+Integración de chat de WhatsApp 💬.
+Incorporación de videos de YouTube 🎥.
+Ubicación en Google Maps 🗺️.
+Opción de formato Single Page 📄.
+Certificado SSL incluido 🔒.
+Dominio gratis por 1 año 🆓.
+Correo corporativo 📧.
+Tutorial online para administrar la página web 🖥️.
+
+3. Publicidad ADS 🚀
+Estrategia de anuncios personalizada 🎯.
+Investigación de palabras clave 🔍.
+Segmentación de audiencia 🎯.
+Diseño creativo de anuncios 🎨.
+Gestión de campañas en plataformas como Google Ads o Facebook Ads.
+Monitorización y análisis de resultados 📊.
+Ajustes continuos para optimizar el rendimiento ⚙️.
+Informes detallados de rendimiento 📈.
+Estrategias de retargeting 🔄.
+
+4. Haz Crecer Tu Marca 🚀
+Desarrollo de identidad de marca 🏷️.
+Estrategia de marketing digital 📈.
+Creación de contenido relevante y atractivo 📸.
+Marketing de influencers 🤳.
+Participación en eventos y colaboraciones 🤝.
+Monitoreo de la reputación de la marca 👀.
+Estrategia de crecimiento a largo plazo 📈.
+Investigación de mercado 🌐.
+Desarrollo de campañas creativas 🚀.
+Análisis de la competencia 👥.
+
+5. Gestión de Redes Sociales 📱
+Creación y optimización de perfiles 🔄.
+Estrategia de contenido 📅.
+Publicación regular y programada ⏰.
+Interacción con seguidores 👥.
+Monitoreo de métricas y análisis de resultados 📊.
+Gestión de anuncios en redes sociales 📢.
+Desarrollo de concursos y promociones 🎉.
+Servicio de atención al cliente a través de redes sociales 💬.
+Estrategias de crecimiento de seguidores 📈.
+Informes detallados de rendimiento 📈.
