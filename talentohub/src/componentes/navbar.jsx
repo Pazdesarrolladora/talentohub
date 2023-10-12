@@ -1,17 +1,21 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook,faInstagram,faLinkedin} from '@fortawesome/free-brands-svg-icons';
-import "../css/navbar.css" 
-import TH from '../imagenes/TH.png'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+import "../css/navbar.css";
+import TH from "../imagenes/TH.png";
 const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary ">
         <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-        <div className="logo">
-          <img className="logo-img" src={TH} alt="Logo" />
-        </div>
-      </a>
+          <a className="navbar-brand" href="#">
+            <div className="logo">
+              <img className="logo-img" src={TH} alt="Logo" />
+            </div>
+          </a>
           <button
             className="navbar-toggler"
             type="button"
@@ -31,42 +35,73 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="quehacemos">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="quehacemos"
+                >
                   ¿Que Hacemos?
                 </a>
               </li>
               <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="quehacemos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-  
-</a>
-          <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="paginasweb">Paginas web</a></li>
-            <li><a className="dropdown-item" href="publicidad">Publicidad</a></li>
-            <li><a className="dropdown-item" href="crecimientodemarca">Crecimiento de Marca</a></li>
-            <li><a className="dropdown-item" href="redessociales">Redes Sociales</a></li>
-          </ul>
-        </li>
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="quehacemos"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                ></a>
+                <ul className="dropdown-menu">
+                  <li>
+                    <a className="dropdown-item" href="paginasweb">
+                      Paginas web
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="publicidad">
+                      Publicidad
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="crecimientodemarca">
+                      Crecimiento de Marca
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="redessociales">
+                      Redes Sociales
+                    </a>
+                  </li>
+                </ul>
+              </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="paginasweb">
-                Portafolio
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="portafolio"
+                >
+                  Portafolio
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="marketing">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="contacto"
+                >
                   Contacto
                 </a>
               </li>
-              
             </ul>
             <a className="nav-link active m-1" aria-current="page" href="#">
-            <FontAwesomeIcon icon={faFacebook} />   
-                </a>
-                <a className="nav-link active m-1" aria-current="page" href="#">
-                <FontAwesomeIcon icon={faInstagram} />
-                </a>
-                <a className="nav-link active m-1" aria-current="page" href="#">
-                <FontAwesomeIcon icon={faLinkedin} />
-                </a>
+              <FontAwesomeIcon icon={faFacebook} />
+            </a>
+            <a className="nav-link active m-1" aria-current="page" href="#">
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+            <a className="nav-link active m-1" aria-current="page" href="#">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
           </div>
         </div>
       </nav>

@@ -1,8 +1,8 @@
-
 import Navbar from "../componentes/navbar";
 import Hacemos from "../componentes/hacemos";
 
 import Cardconbotones from "../componentes/cardconbotones";
+import Footer from "../componentes/footer";
 
 const Quehacemos = () => {
   return (
@@ -72,6 +72,7 @@ const Quehacemos = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
