@@ -6,7 +6,7 @@ Tienda online E-commerce:
 Construimos y personalizamos tu tienda online, no solo como un lugar de transacciones, sino como un destino donde la magia de tus productos 🪄 cobra vida. Desde la interfaz hasta la experiencia del usuario, creamos un espacio digital que atrae, cautiva y convierte visitantes en clientes fieles. Además, te proporcionamos las herramientas y estrategias para que tu tienda alcance a nuevos clientes de manera efectiva. 🌐🛒
 
 Página web:
-Diseñamos y configuramos tu sitio web con una mezcla única de creatividad y funcionalidad. Más que una presencia online, creamos un portal que atrae instantáneamente a tu audiencia. Te proporcionamos no solo una plataforma para contar tu historia, sino también un medio interactivo que invita a la participación. Además, te enseñamos cómo administrarlo para que siempre esté en sintonía con la evolución de tu marca. 🖥️✨
+. 🖥️✨
 
 Publicidad ADS:
 A través de estrategias publicitarias ADS, no solo atraemos clics, sino que generamos un impacto duradero. Configuramos campañas que despiertan el interés, convierten la pasividad en acción y atraen a tu audiencia objetivo. Nuestro enfoque no es solo conseguir clics, sino crear conexiones significativas que se traduzcan en clientes y conversiones. 🚀🎯
