@@ -57,30 +57,20 @@ const Paginasweb = () => {
             />
           </div>
         </div>
-      </div>
-      <div className="container">
-        <div className="row">
-          <div className="col-12 order-4">
-            <Cardinfo
-              imagen={
-                "https://i.pinimg.com/736x/93/29/00/9329004761a79d36f5171aa0308125f1.jpg"
-              }
-              titulo={"Proceso"}
-              informacion={
-                "Inicia seleccionando tu promoción preferida y recibirás un formulario para reservar tu proyecto. En dos semanas, tendrás tu proyecto listo para afinar detalles. Te proporcionamos el proyecto activo con fotografías, y como autoadministrador, puedes cargar imágenes ilimitadas."
-              }
-            />
-          </div>
-          <div className="col-12 order-5">
-            <Cardinfo
-              imagen={
-                "https://i.pinimg.com/564x/2c/2e/e0/2c2ee05faeeaa92532d532f565c8a697.jpg"
-              }
-              titulo={"Renovación"}
-              informacion={
-                "Durante el primer año, disfruta de dominio y alojamiento web gratuitos. A partir del segundo año, la renovación anual se realiza por 1 UTM, asegurando continuidad y estabilidad para tu servicio."
-              }
-            />
+        <div className="container">
+          <div className="row">
+            <div className="col-6">
+            <Cardinfo 
+              imagen={"https://i.pinimg.com/736x/93/29/00/9329004761a79d36f5171aa0308125f1.jpg"} 
+              titulo={"Proceso"} 
+              informacion={"Inicia seleccionando tu promoción preferida y recibirás un formulario para reservar tu proyecto. En  dos semanas, tendrás tu proyecto listo para afinar detalles. Te proporcionamos el proyecto activo con fotografías, y como autoadministrador, puedes cargar imágenes ilimitadas."}/>
+            </div>
+            <div className="col-6">
+            <Cardinfo 
+              imagen={"https://i.pinimg.com/564x/2c/2e/e0/2c2ee05faeeaa92532d532f565c8a697.jpg"} 
+              titulo={"Renovacion"} 
+              informacion={"Durante el primer año, disfruta de dominio y alojamiento web gratuitos. A partir del segundo año, la renovación anual se realiza por 1 UTM, asegurando continuidad y estabilidad para tu servicio."}/>
+            </div>
           </div>
           <div className="col-12 order-6">
             <Cardinfo
