@@ -5,7 +5,7 @@ import "../css/paginaweb.css";
 import Cardconbotones from "../componentes/cardconbotones";
 import Cardinfo from "../componentes/cardinfo";
 
-const Crecimientodemarca = () => {
+const crecimientodemarca = () => {
   return (
     <>
       <Navbar />
@@ -16,28 +16,34 @@ const Crecimientodemarca = () => {
         <div className="container">
           <div className="row">
             <div className="col-6">
-              <Cardconbotones
-                imagen={
-                  "https://i.pinimg.com/564x/da/36/73/da3673904b87e34da933a62444cf8eee.jpg"
-                }
-                titulo={"Establece tu identidad"}
-                informacion={"Ofrecemos un servicio integral de desarrollo de identidad, que incluye la creación y desarrollo de la identidad visual de tu marca, brindando una imagen distintiva y atractiva. Además, desarrollamos una estrategia básica de marketing digital, creando contenido relevante y atractivo para fortalecer la presencia de tu marca en línea. Establecemos una sólida presencia en redes sociales y realizamos un análisis competitivo básico para posicionarte de manera efectiva en el mercado. Con nuestro enfoque completo, impulsamos la visibilidad y el atractivo de tu marca."}
-                botoninfo={"¡Voy!"}
-                referencia={"referencia"}
-              />
+            <Cardconbotones
+              imagen={"URL_de_la_imagen_4"}
+              titulo={"Título del Card 4"}
+              informacion={[
+                "Otra información 1",
+                "Otra información 2",
+                "Otra información 3",
+                // Agrega más información si es necesario
+              ]}
+              botoninfo={"¡Voy!"}
+              referencia={"redessociales"}
+            />
             </div>
             <div className="col-6">
-              <Cardconbotones
-                imagen={
-                  "https://i.pinimg.com/564x/0d/3f/91/0d3f91bfacfa9d9d9538fedb95101bd7.jpg"
-                }
-                titulo={"Vamos al siguiente nivel"}
-                informacion={"Ofrecemos un servicio completo de desarrollo de marca, abarcando la creación integral de la identidad visual, tono de marca y mensaje para proporcionar una presencia coherente y distintiva. Además, desarrollamos e implementamos estrategias completas de marketing digital, generando contenido creativo y altamente atractivo para potenciar la marca. Gestionamos de manera avanzada la presencia en redes sociales, realizamos un análisis profundo de la competencia y del mercado, y creamos campañas especiales para eventos clave. Con nuestro enfoque integral, fortalecemos la identidad y posición de tu marca de manera efectiva"}
-                botoninfo={"¡Voy!"}
-                referencia={"referencia"}
-              />
+            <Cardconbotones
+              imagen={"URL_de_la_imagen_4"}
+              titulo={"Título del Card 4"}
+              informacion={[
+                "Otra información 1",
+                "Otra información 2",
+                "Otra información 3",
+                // Agrega más información si es necesario
+              ]}
+              botoninfo={"¡Voy!"}
+              referencia={"redessociales"}
+            />
             </div>
-           
+          
           </div>
         </div>
         <div className="container">
@@ -77,4 +83,4 @@ const Crecimientodemarca = () => {
   );
 };
 
-export default Crecimientodemarca
+export default crecimientodemarca
