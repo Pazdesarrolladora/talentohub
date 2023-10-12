@@ -14,7 +14,7 @@ const Paginasweb = () => {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-12 col-lg-4 order-lg-1 order-3">
+          <div className="col-12 col-lg-4 ">
             <Cardconbotones
               imagen={"imagen_url"}
               titulo={"Título del Card 1"}
@@ -25,10 +25,10 @@ const Paginasweb = () => {
                 // Agrega más información si es necesario
               ]}
               botoninfo={"¡Voy!"}
-              referencia={"referencia"}
+              referencia={"http://api.whatsapp.com/send?phone=56945111875"}
             />
           </div>
-          <div className="col-12 col-lg-4 order-2">
+          <div className="col-12 col-lg-4 ">
             <Cardconbotones
               imagen={"imagen_url_2"}
               titulo={"Título del Card 2"}
@@ -39,10 +39,10 @@ const Paginasweb = () => {
                 // Agrega más información si es necesario
               ]}
               botoninfo={"¡Voy!"}
-              referencia={"referencia_2"}
+              referencia={"http://api.whatsapp.com/send?phone=56945111875"}
             />
           </div>
-          <div className="col-12 col-lg-4 order-lg-3 order-1">
+          <div className="col-12 col-lg-4">
             <Cardconbotones
               imagen={"imagen_url_3"}
               titulo={"Título del Card 3"}
@@ -53,7 +53,7 @@ const Paginasweb = () => {
                 // Agrega más información si es necesario
               ]}
               botoninfo={"¡Voy!"}
-              referencia={"referencia_3"}
+              referencia={"http://api.whatsapp.com/send?phone=56945111875"}
             />
           </div>
         </div>
