@@ -1,5 +1,4 @@
 import Navbar from "../componentes/navbar";
-import Carrusel from "../componentes/carrusel";
 import Promociones from "../componentes/promociones";
 import "../css/paginaweb.css";
 import Cardconbotones from "../componentes/cardconbotones";
@@ -16,26 +15,32 @@ const Redessociales = () => {
         <div className="container">
           <div className="row">
             <div className="col-6">
-              <Cardconbotones
-                imagen={
-                  "https://i.pinimg.com/564x/c4/9d/f1/c49df1b78b8debd2c12dfaa823ad6c0f.jpg"
-                }
-                titulo={"Presencia Social Inicial"}
-                informacion={"Brindamos un servicio completo de creación y optimización de perfiles en las principales redes sociales, asegurando una presencia efectiva y coherente. Desarrollamos una estrategia inicial de contenido, que incluye publicaciones regulares y programadas en las redes sociales, manteniendo una presencia constante. Además, ofrecemos interacción básica con seguidores para fortalecer la conexión con la audiencia. Para evaluar el rendimiento, proporcionamos informes mensuales detallados. Con nuestro enfoque integral, optimizamos la presencia y el compromiso en las redes sociales de manera eficaz. "}
-                botoninfo={"¡Voy!"}
-                referencia={"referencia"}
-              />
+            <Cardconbotones
+              imagen={"URL_de_la_imagen_4"}
+              titulo={"Título del Card 4"}
+              informacion={[
+                "Otra información 1",
+                "Otra información 2",
+                "Otra información 3",
+                // Agrega más información si es necesario
+              ]}
+              botoninfo={"¡Voy!"}
+              referencia={"redessociales"}
+            />
             </div>
             <div className="col-6">
-              <Cardconbotones
-                imagen={
-                  "https://i.pinimg.com/564x/b5/fd/70/b5fd70e742e72b0496b4154768c8d991.jpg"
-                }
-                titulo={"Impulsa tu presencial Social"}
-                informacion={"Ofrecemos un servicio completo de creación y optimización de perfiles en las principales redes sociales, asegurando una presencia sólida y coherente. Desarrollamos y ejecutamos una estrategia avanzada de contenido, con publicaciones regulares y estratégicas para maximizar el alcance. Mantenemos una interacción activa con seguidores, gestionando comentarios y mensajes directos de manera proactiva. Además, gestionamos anuncios en redes sociales para potenciar la visibilidad. Proporcionamos informes detallados de rendimiento con recomendaciones para la mejora continua, asegurando una presencia efectiva y en constante evolución en las redes sociales"}
-                botoninfo={"¡Voy!"}
-                referencia={"referencia"}
-              />
+            <Cardconbotones
+              imagen={"URL_de_la_imagen_4"}
+              titulo={"Título del Card 4"}
+              informacion={[
+                "Otra información 1",
+                "Otra información 2",
+                "Otra información 3",
+                // Agrega más información si es necesario
+              ]}
+              botoninfo={"¡Voy!"}
+              referencia={"redessociales"}
+            />
             </div>
           
           </div>
