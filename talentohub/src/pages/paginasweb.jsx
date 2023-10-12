@@ -17,13 +17,12 @@ const Paginasweb = () => {
         <div className="row">
           <div className="col-12 col-lg-4 ">
             <Cardconbotones
-              imagen={"imagen_url"}
-              titulo={"Título del Card 1"}
+              imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697082385/Website_Creator-rafiki_ksaky1.png"}
+              titulo={"Presencia Online Basica"}
               informacion={[
                 "Información 1",
                 "Información 2",
                 "Información 3",
-                // Agrega más información si es necesario
               ]}
               botoninfo={"¡Voy!"}
               referencia={"http://api.whatsapp.com/send?phone=56945111875"}
@@ -31,8 +30,8 @@ const Paginasweb = () => {
           </div>
           <div className="col-12 col-lg-4 ">
             <Cardconbotones
-              imagen={"imagen_url_2"}
-              titulo={"Título del Card 2"}
+              imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697082385/Online_wishes_list-rafiki_vgclwr.png"}
+              titulo={"Vende con estilo"}
               informacion={[
                 "Otra información 1",
                 "Otra información 2",
@@ -45,8 +44,8 @@ const Paginasweb = () => {
           </div>
           <div className="col-12 col-lg-4">
             <Cardconbotones
-              imagen={"imagen_url_3"}
-              titulo={"Título del Card 3"}
+              imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697082385/Rocket-rafiki_zdoec3.png"}
+              titulo={"Potencia tu negocio"}
               informacion={[
                 "Más información 1",
                 "Más información 2",

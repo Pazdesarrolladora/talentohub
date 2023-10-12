@@ -5,7 +5,7 @@ import Cardconbotones from "../componentes/cardconbotones";
 import Cardinfo from "../componentes/cardinfo";
 import Footer from "../componentes/footer";
 
-const Crecimientodemarca = () => {
+const crecimientodemarca = () => {
   return (
     <>
       <Navbar />
@@ -16,33 +16,34 @@ const Crecimientodemarca = () => {
         <div className="container">
           <div className="row">
             <div className="col-6">
-              <Cardconbotones
-                imagen={"imagen_url"}
-                titulo={"Título del Card 1"}
-                informacion={[
-                  "Información 1",
-                  "Información 2",
-                  "Información 3",
-                  // Agrega más información si es necesario
-                ]}
-                botoninfo={"¡Voy!"}
-                referencia={"http://api.whatsapp.com/send?phone=56945111875"}
-              />
+            <Cardconbotones
+              imagen={"URL_de_la_imagen_4"}
+              titulo={"Título del Card 4"}
+              informacion={[
+                "Otra información 1",
+                "Otra información 2",
+                "Otra información 3",
+                // Agrega más información si es necesario
+              ]}
+              botoninfo={"¡Voy!"}
+              referencia={"redessociales"}
+            />
             </div>
             <div className="col-6">
-              <Cardconbotones
-                imagen={"imagen_url"}
-                titulo={"Título del Card 1"}
-                informacion={[
-                  "Información 1",
-                  "Información 2",
-                  "Información 3",
-                  // Agrega más información si es necesario
-                ]}
-                botoninfo={"¡Voy!"}
-                referencia={"http://api.whatsapp.com/send?phone=56945111875"}
-              />
+            <Cardconbotones
+              imagen={"URL_de_la_imagen_4"}
+              titulo={"Título del Card 4"}
+              informacion={[
+                "Otra información 1",
+                "Otra información 2",
+                "Otra información 3",
+                // Agrega más información si es necesario
+              ]}
+              botoninfo={"¡Voy!"}
+              referencia={"redessociales"}
+            />
             </div>
+          
           </div>
         </div>
         <div className="container">
@@ -103,4 +104,4 @@ const Crecimientodemarca = () => {
   );
 };
 
-export default Crecimientodemarca;
+export default crecimientodemarca
