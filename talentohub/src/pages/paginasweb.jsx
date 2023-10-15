@@ -20,10 +20,15 @@ const Paginasweb = () => {
               imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697082385/Website_Creator-rafiki_ksaky1.png"}
               titulo={"Presencia Online Basica"}
               informacion={[
-                "Información 1",
-                "Información 2",
-                "Información 3",
-              ]}
+                "Creación de una página web atractiva y funcional 🎨.",
+                "Menú adaptable 📋",
+                "Información de la empresa o proyecto ℹ️",
+                "Formulario de contacto ✉️",
+                "Vinculación con redes sociales 🔗",
+                "Certificado SSL incluido 🔒",
+                "Dominio gratis por 1 año 🆓",
+                "¡Lleva gratis el tutorial online para administrar tu Página Web! ✅",
+                 ]}
               botoninfo={"¡Voy!"}
               referencia={"http://api.whatsapp.com/send?phone=56945111875"}
             />
@@ -33,9 +38,17 @@ const Paginasweb = () => {
               imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697082385/Online_wishes_list-rafiki_vgclwr.png"}
               titulo={"Vende con estilo"}
               informacion={[
-                "Otra información 1",
-                "Otra información 2",
-                "Otra información 3",
+                "Creación de una tienda online atractiva y profesional 🎨",
+                "Carrito de compras 🛍️",
+                "Catálogo de productos con descripciones detalladas 📦",
+                "Proceso de pago seguro 💳",
+                "Gestión de inventario 📊",
+                "Integración con pasarelas de pago 💸",
+                "Vinculación con redes sociales 🔗",
+                "Certificado SSL incluido 🔒",
+                "Dominio gratis por 1 año 🆓",
+                "¡Lleva gratis el tutorial online para administrar tu Página Web! ✅"
+                
                 // Agrega más información si es necesario
               ]}
               botoninfo={"¡Voy!"}
@@ -47,9 +60,16 @@ const Paginasweb = () => {
               imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697082385/Rocket-rafiki_zdoec3.png"}
               titulo={"Potencia tu negocio"}
               informacion={[
-                "Más información 1",
-                "Más información 2",
-                "Más información 3",
+                "Creación de una página web completa con tienda online 🌐",
+                "Todas las características del servicio de página web y e-commerce empresa",
+                "Proceso de pago seguro con múltiples opciones 💳",
+                "Integración con pasarelas de pago y redes sociales 💸🔗",
+                "Estrategias de marketing para la tienda online 📈",
+                "Certificado SSL incluido 🔒",
+                "Dominio gratis por 1 año 🆓.",
+                "¡Lleva gratis el tutorial online para administrar tu Página Web! ✅",
+                
+                
                 // Agrega más información si es necesario
               ]}
               botoninfo={"¡Voy!"}

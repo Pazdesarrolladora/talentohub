@@ -18,14 +18,15 @@ const Publicidad = () => {
           <div className="row">
             <div className="col-4">
               <Cardconbotones
-                imagen={"imagen_url"}
-                titulo={"Título del Card 1"}
+                imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/brand_loyalty-pana_tlithf.png"}
+                titulo={"Presencia Online"}
                 informacion={[
-                  "Información 1",
-                  "Información 2",
-                  "Información 3",
+                  "Investigación básica de palabras clave para la industria 🔍.",
+                  "Creación y gestión de una campaña en una plataforma de publicidad (Google Ads o Facebook Ads) 📈.",
+                  "Análisis de Resultados: Informe mensual de rendimiento 📊",
                   // Agrega más información si es necesario
                 ]}
+                
                 botoninfo={"¡Voy!"}
                 referencia={"referencia"}
               />
@@ -33,27 +34,32 @@ const Publicidad = () => {
             <div className="col-4">
               <Cardconbotones
                 imagen={"imagen_url"}
-                titulo={"Título del Card 1"}
+                titulo={"https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/Holding_the_arrow-rafiki_kmsmef.png"}
                 informacion={[
-                  "Información 1",
-                  "Información 2",
-                  "Información 3",
-                  // Agrega más información si es necesario
+                  "Investigación avanzada de palabras clave y análisis de competencia 🔍📈.",
+                  "Creación y gestión de dos campañas en plataformas de publicidad seleccionadas 📈.",
+                  "Diseño de anuncios creativos y segmentación de audiencia 🎨.",
+                  "Informe quincenal de rendimiento y ajuste de estrategias según los resultados 🔄.",
+                  // Puedes agregar más información si es necesario
                 ]}
+                
                 botoninfo={"¡Voy!"}
                 referencia={"referencia"}
               />
             </div>
             <div className="col-4">
               <Cardconbotones
-                imagen={"imagen_url"}
-                titulo={"Título del Card 1"}
+                imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/Success_factors-amico_zfmein.png"}
+                titulo={"Dominio del mercado"}
                 informacion={[
-                  "Información 1",
-                  "Información 2",
-                  "Información 3",
-                  // Agrega más información si es necesario
+                  "Investigación exhaustiva de palabras clave y análisis detallado de la competencia 🔍📊.",
+                  "Creación y gestión de tres campañas en varias plataformas de publicidad 📈.",
+                  "Diseño de anuncios altamente creativos y personalizados 🚀.",
+                  "Implementación de estrategias de retargeting y ajuste constante de la campaña ⚙️.",
+                  "Informe semanal de rendimiento con reuniones de consultoría para discutir estrategias futuras 📆.",
+                  // Puedes agregar más información si es necesario
                 ]}
+                
                 botoninfo={"¡Voy!"}
                 referencia={"referencia"}
               />

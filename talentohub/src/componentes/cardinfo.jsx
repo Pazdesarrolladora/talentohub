@@ -10,8 +10,9 @@ const Cardinfo = ({ imagen, titulo, informacion }) => {
         </div>
         <div className="col-md-8">
           <div className="card-body">
-            <h3 className="card-title">{titulo}</h3>
+           
             <p className="card-text">{informacion}</p>
+            <h3 className="card-title">{titulo}</h3>
           </div>
         </div>
       </div>

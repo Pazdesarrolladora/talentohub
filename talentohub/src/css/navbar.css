@@ -6,7 +6,7 @@
     top: 0;
     width: 100%;
     z-index: 1000; /* Valor alto para asegurarte de que esté encima del contenido */
-    background-color: #ffe044;
+    background-color: #FFEA2F;
     font-family: 'Poppins', sans-serif; /* Cambia la fuente a Poppins o la fuente de Google que prefieras */
   }
 .logo-img {

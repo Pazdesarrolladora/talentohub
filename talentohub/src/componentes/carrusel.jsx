@@ -7,15 +7,15 @@ const Carrusel = () => {
 <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="4000">
-      <img src="https://res.cloudinary.com/dcwloh062/image/upload/v1697077984/wepik-export-202310120227295ZKY_hev83g.png" className="d-block w-100" alt="..."/>
+      <img src="https://res.cloudinary.com/dcwloh062/image/upload/v1697398773/wepik-export-20231015193448xEtF_hftdey.png" className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item" data-bs-interval="4000">
-      <img src="    https://res.cloudinary.com/dcwloh062/image/upload/v1697079145/wepik-export-202310120240493atH_expb6b.png" className="d-block w-100" alt="..."/>
+      <img src="https://res.cloudinary.com/dcwloh062/image/upload/v1697398907/wepik-export-20231015191616WC1q_limjzu.png" className="d-block w-100" alt="..."/>
 
     </div>
-    <div className="carousel-item"data-bs-interval="4000">
+    {/* <div className="carousel-item"data-bs-interval="4000">
     <img src="https://res.cloudinary.com/dcwloh062/image/upload/v1697077984/wepik-export-202310120227295ZKY_hev83g.png" className="d-block w-100" alt="..."/>
-    </div>
+    </div> */}
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
