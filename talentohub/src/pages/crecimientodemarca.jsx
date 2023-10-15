@@ -12,33 +12,40 @@ const crecimientodemarca = () => {
       <div className="main-content">
         {/* <Carrusel /> */}
         <Promociones />
-        <h1 className="tituloweb">Planes de E-commerce y Desarrollo Web </h1>
+        <h1 className="tituloweb">Crecimiento de marca</h1>
         <div className="container">
           <div className="row">
             <div className="col-6">
             <Cardconbotones
-              imagen={"URL_de_la_imagen_4"}
-              titulo={"Título del Card 4"}
+              imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/Internet_on_the_go-amico_ctkuim.png"}
+              titulo={"Establece tu identidad"}
               informacion={[
-                "Otra información 1",
-                "Otra información 2",
-                "Otra información 3",
-                // Agrega más información si es necesario
+                "Creación y desarrollo de la identidad visual de la marca 🎨.",
+                "Desarrollo de una estrategia básica de marketing digital 📈.",
+                "Creación de contenido relevante y atractivo para la marca 📸.",
+                "Establecimiento de presencia en redes sociales 🔗.",
+                "Análisis básico de la competencia 👥.",
+                // Puedes agregar más información si es necesario
               ]}
+              
               botoninfo={"¡Voy!"}
               referencia={"redessociales"}
             />
             </div>
             <div className="col-6">
             <Cardconbotones
-              imagen={"URL_de_la_imagen_4"}
-              titulo={"Título del Card 4"}
+              imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/Next_option-rafiki_wkmcjg.png"}
+              titulo={"Impulsa tu marca al otro nivel"}
               informacion={[
-                "Otra información 1",
-                "Otra información 2",
-                "Otra información 3",
-                // Agrega más información si es necesario
+                "Desarrollo completo de la identidad visual, tono de marca y mensaje 🌐.",
+                "Desarrollo e implementación de una estrategia completa de marketing digital 📈.",
+                "Creación de contenido creativo y altamente atractivo para la marca 🚀.",
+                "Gestión avanzada y potenciada de la presencia en redes sociales 🔗.",
+                "Análisis profundo de la competencia y del mercado 👥🌐.",
+                "Desarrollo de campañas especiales para eventos clave 🎉.",
+                // Puedes agregar más información si es necesario
               ]}
+              
               botoninfo={"¡Voy!"}
               referencia={"redessociales"}
             />

@@ -12,33 +12,40 @@ const Redessociales = () => {
       <div className="main-content">
         {/* <Carrusel /> */}
         <Promociones />
-        <h1 className="tituloweb">Planes de E-commerce y Desarrollo Web </h1>
+        <h1 className="tituloweb">Redes Sociales </h1>
         <div className="container">
           <div className="row">
             <div className="col-6">
               <Cardconbotones
-                imagen={"URL_de_la_imagen_4"}
-                titulo={"Título del Card 4"}
+                imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697404365/Online_world-bro_okywew.png"}
+                titulo={"Presencia social inicial"}
                 informacion={[
-                  "Otra información 1",
-                  "Otra información 2",
-                  "Otra información 3",
-                  // Agrega más información si es necesario
+                  "Creación y optimización de perfiles en las principales redes sociales 🔗.",
+                  "Desarrollo de una estrategia de contenido inicial 📅.",
+                  "Publicación regular y programada en las redes sociales ⏰.",
+                  "Interacción básica con seguidores 👥.",
+                  "Informe mensual de rendimiento 📊.",
+                  // Puedes agregar más información si es necesario
                 ]}
+                
                 botoninfo={"¡Voy!"}
                 referencia={"redessociales"}
               />
             </div>
             <div className="col-6">
               <Cardconbotones
-                imagen={"URL_de_la_imagen_4"}
-                titulo={"Título del Card 4"}
+                imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/Social_Growth-cuate_odloga.png"}
+                titulo={"Impulsa tu presencia"}
                 informacion={[
-                  "Otra información 1",
-                  "Otra información 2",
-                  "Otra información 3",
-                  // Agrega más información si es necesario
+                  "Creación y optimización de perfiles en las principales redes sociales 🔗.",
+                  "Desarrollo y ejecución de una estrategia de contenido avanzada 📅.",
+                  "Publicación regular y estratégica para maximizar el alcance ⏰.",
+                  "Interacción activa con seguidores, gestión de comentarios y mensajes directos 👥💬.",
+                  "Gestión de anuncios en redes sociales 📢.",
+                  "Informe detallado de rendimiento con recomendaciones para la mejora continua 📊.",
+                  // Puedes agregar más información si es necesario
                 ]}
+                
                 botoninfo={"¡Voy!"}
                 referencia={"redessociales"}
               />
