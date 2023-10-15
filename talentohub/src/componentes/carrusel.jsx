@@ -1,3 +1,4 @@
+import "../css/carrusel.css"
 
 
 const Carrusel = () => {
@@ -6,7 +7,7 @@ const Carrusel = () => {
 <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="4000">
-      <img src="https://res.cloudinary.com/dcwloh062/image/upload/v1697079145/wepik-export-202310120251323bhJ_foyh34.png" className="d-block w-100" alt="..."/>
+      <img src="https://res.cloudinary.com/dcwloh062/image/upload/v1697077984/wepik-export-202310120227295ZKY_hev83g.png" className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item" data-bs-interval="4000">
       <img src="    https://res.cloudinary.com/dcwloh062/image/upload/v1697079145/wepik-export-202310120240493atH_expb6b.png" className="d-block w-100" alt="..."/>

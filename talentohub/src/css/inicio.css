@@ -1,0 +1,33 @@
+.enquepodemos {
+    margin-top: 80px;
+    text-align: center;
+}
+.solucionesofrecemos {
+    text-align: center;
+}
+.elmejor {
+    text-align: center;
+}
+.enfocados {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contactanos {
+    border-top: .5px solid #b1b1b1;
+    border-bottom: .5px solid #b1b1b1;
+    margin-top: 60px;
+    height: 400px;
+    display: flex; /* Establece el contenedor de contacto como un contenedor flexible */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+}
+
+.deseas {
+    margin-left: 30px;
+}
+
+.botoncontacto {
+    display: flex; /* Establece el contenedor del botón como un contenedor flexible */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+}
