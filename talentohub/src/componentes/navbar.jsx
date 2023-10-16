@@ -30,7 +30,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <a className="nav-link active" aria-current="page" href="/" style={{ fontFamily: 'Poppins, sans-serif'}}>
                   Inicio
                 </a>
               </li>
@@ -39,6 +39,7 @@ const Navbar = () => {
                   className="nav-link active"
                   aria-current="page"
                   href="quehacemos"
+                  style={{ fontFamily: 'Poppins, sans-serif'}}
                 >
                   ¿Que Hacemos?
                 </a>
@@ -53,22 +54,26 @@ const Navbar = () => {
                 ></a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="paginasweb">
+                    <a className="dropdown-item" href="paginasweb"
+                    style={{ fontFamily: 'Poppins, sans-serif'}}>
                       Paginas web
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="publicidad">
+                    <a className="dropdown-item" href="publicidad"
+                    style={{ fontFamily: 'Poppins, sans-serif'}}>
                       Publicidad
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="crecimientodemarca">
+                    <a className="dropdown-item" href="crecimientodemarca"
+                    style={{ fontFamily: 'Poppins, sans-serif'}}>
                       Crecimiento de Marca
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="redessociales">
+                    <a className="dropdown-item" href="redessociales"
+                    style={{ fontFamily: 'Poppins, sans-serif'}}>
                       Redes Sociales
                     </a>
                   </li>
@@ -79,6 +84,7 @@ const Navbar = () => {
                   className="nav-link active"
                   aria-current="page"
                   href="portafolio"
+                  style={{ fontFamily: 'Poppins, sans-serif'}}
                 >
                   Portafolio
                 </a>
@@ -88,6 +94,7 @@ const Navbar = () => {
                   className="nav-link active"
                   aria-current="page"
                   href="contacto"
+                  style={{ fontFamily: 'Poppins, sans-serif'}}
                 >
                   Contacto
                 </a>

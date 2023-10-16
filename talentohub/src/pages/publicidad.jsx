@@ -1,17 +1,35 @@
+import React from "react";
 import Navbar from "../componentes/navbar";
-// import Carrusel from "../componentes/carrusel";
 import Promociones from "../componentes/promociones";
-import "../css/paginaweb.css";
 import Cardconbotones from "../componentes/cardconbotones";
-import Cardinfo from "../componentes/cardinfo";
+import CardLargas from "../componentes/cardlargas";
 import Footer from "../componentes/footer";
+import "../css/paginaweb.css";
 
 const Publicidad = () => {
   return (
     <>
       <Navbar />
       <div className="main-content">
-        {/* <Carrusel /> */}
+      <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
+        <div className="carousel-inner">
+          <div className="carousel-item active" data-bs-interval="4000">
+            <img
+              src="https://res.cloudinary.com/dcwloh062/image/upload/v1697464058/wepik-export-20231016134147pLZ5_ddgu9n.png"
+              className="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
+        </button>
+      </div>
         <Promociones />
         <h1 className="tituloweb">Publicidad</h1>
         <div className="container">
@@ -26,7 +44,6 @@ const Publicidad = () => {
                   "• Análisis de Resultados: Informe mensual de rendimiento",
                   // Agrega más información si es necesario
                 ]}
-                
                 botoninfo={"¡Voy!"}
                 referencia={"referencia"}
               />
@@ -42,7 +59,6 @@ const Publicidad = () => {
                   "• Informe quincenal de rendimiento y ajuste de estrategias según los resultados",
                   // Puedes agregar más información si es necesario
                 ]}
-                
                 botoninfo={"¡Voy!"}
                 referencia={"referencia"}
               />
@@ -59,52 +75,38 @@ const Publicidad = () => {
                   "• Informe semanal de rendimiento con reuniones de consultoría para discutir estrategias futuras ",
                   // Puedes agregar más información si es necesario
                 ]}
-                
                 botoninfo={"¡Voy!"}
                 referencia={"referencia"}
               />
             </div>
           </div>
-        </div>
-        <div className="container">
+         
           <div className="row">
-            <div className="col-12">
-              <Cardinfo
-                // imagen={"https://i.pinimg.com/736x/93/29/00/9329004761a79d36f5171aa0308125f1.jpg"}
-                titulo={"Proceso"}
-                informacion={
-                  "Inicia seleccionando tu promoción preferida y recibirás un formulario para reservar tu proyecto. En  dos semanas, tendrás tu proyecto listo para afinar detalles. Te proporcionamos el proyecto activo con fotografías, y como autoadministrador, puedes cargar imágenes ilimitadas."
+            <div className="col-12 mb-4">
+              <CardLargas
+                imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697458202/wepik-export-20231016115840HNzB_ub8prt.png"
+                texto1={
+                  "En la fase de diseño y desarrollo, nuestros creativos toman la iniciativa para dar vida al proyecto, fusionando la creatividad con la funcionalidad. Nos esforzamos por superar tus expectativas, personalizando cada aspecto según tus requisitos para asegurar un producto verdaderamente único"
                 }
               />
             </div>
-            <div className="col-12">
-              <Cardinfo
-                // imagen={"https://i.pinimg.com/564x/2c/2e/e0/2c2ee05faeeaa92532d532f565c8a697.jpg"}
-                titulo={"Renovacion"}
-                informacion={
-                  "Durante el primer año, disfruta de dominio y alojamiento web gratuitos. A partir del segundo año, la renovación anual se realiza por 1 UTM, asegurando continuidad y estabilidad para tu servicio."
+            <div className="col-12 mb-4">
+              <CardLargas
+                imagen={
+                  "https://res.cloudinary.com/dcwloh062/image/upload/v1697458202/wepik-export-20231016120822H2bc_subkpz.png"
+                }
+                texto1={
+                  "Nuestro equipo altamente cualificado lleva a cabo la implementación del proyecto, ajustándose a la planificación estratégica inicial. Cada detalle se perfecciona cuidadosamente para garantizar que el resultado final cumpla con tus expectativas y necesidades específicas."
                 }
               />
             </div>
-          </div>
-        </div>
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <Cardinfo
-                // imagen={"https://i.pinimg.com/564x/cf/a3/8b/cfa38b18b23a3887008bc117a6f29ac5.jpg"}
-                titulo={"Informacion para Tiendas!"}
-                informacion={
-                  "Entregamos tu tienda con 10 productos/servicios y la capacidad de subir productos adicionales. Configuramos envíos por zona y te enseñamos a manejar pagos con débito o crédito directamente en tu cuenta bancaria."
+            <div className="col-12 mb-4">
+              <CardLargas
+                imagen={
+                  "https://res.cloudinary.com/dcwloh062/image/upload/v1697458207/wepik-export-202310161149598ypy_hgk9ku.png"
                 }
-              />
-            </div>
-            <div className="col-12">
-              <Cardinfo
-                // imagen={"https://i.pinimg.com/564x/8b/b8/30/8bb830a8930c74bf6abdb04288ce5330.jpg"}
-                titulo={"Otros detalles"}
-                informacion={
-                  "Nuestros planes incluyen dominio .com gratis. Puedes agregar extensiones por un costo mínimo. Nuestras páginas web no necesitan hosting, ya que están alojadas en nuestros servidores. Ten en cuenta que nuestras páginas web no se pueden trasladar a otro servidor, ya que utilizamos una plataforma propia."
+                texto1={
+                  "En el corazón de nuestro compromiso está la entrega de un proyecto completamente funcional. Los desarrolladores de TalentoHuB se aseguran de que cada aspecto del proyecto esté operativo, respaldado por evaluaciones previas exhaustivas para garantizar su correcto funcionamiento y tu satisfacción total"
                 }
               />
             </div>

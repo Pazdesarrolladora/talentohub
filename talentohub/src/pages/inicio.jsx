@@ -5,6 +5,8 @@ import CardDemo from "../componentes/carddemo";
 import Footer from "../componentes/footer";
 import CarruselContactanos from "../componentes/carruselContactanos";
 import "../css/Inicio.css"
+import Promociones from "../componentes/promociones";
+
 
 const Inicio = () => {
   return (
@@ -12,6 +14,7 @@ const Inicio = () => {
       <Navbar />
       <div className="main-content">
         <Carrusel/>
+        <Promociones />
         <br />
         
        <div className="Texto text-center">
