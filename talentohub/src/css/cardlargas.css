@@ -1,8 +1,8 @@
 .cardLarga {
   width: 700px; /* Ancho deseado de la tarjeta */
   height: 200px; /* Alto deseado de la tarjeta */
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
+  /* background-color: #f0f0f0;
+  border: 1px solid #ccc; */
   display: flex;
   flex-direction: column; /* Cambiamos a disposición vertical */
   align-items: center;
@@ -16,8 +16,7 @@
 
 .cardLarga img {
   max-width: 100%; /* Ajusta el ancho máximo de la imagen al ancho de la tarjeta */
-  max-height: 100%; /* Ajusta la altura máxima de la imagen a la altura de la tarjeta */
-  object-fit: cover; /* Ajusta la imagen para llenar el contenedor sin deformación */
+ 
 }
 
 .cardLarga .additional-text {

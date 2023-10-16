@@ -11,7 +11,7 @@ const Cardinfo = ({ imagen, titulo, informacion }) => {
         <div className="col-md-8">
           <div className="card-body">
            
-            <p className="card-text">{informacion}</p>
+            <p className="card-text  style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 'bolder', fontSize: '30px', color: 'black' }}">{informacion}</p>
             <h3 className="card-title">{titulo}</h3>
           </div>
         </div>

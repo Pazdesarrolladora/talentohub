@@ -24,7 +24,7 @@ const Cardconbotones = ({
 <a href={referencia} className="whatsapp-button">
   <div className="whatsapp-content">
     <FontAwesomeIcon icon={faWhatsapp} className="whatsapp-icon" />
-    <span>Conversemos por WhatsApp</span>
+    <span  style={{ fontFamily: 'Poppins, sans-serif',  fontSize: '30px', color: 'black' }}>Hablemos</span>
   </div>
 </a>
         </div>

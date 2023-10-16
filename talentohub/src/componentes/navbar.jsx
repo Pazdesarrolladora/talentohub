@@ -30,7 +30,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <a className="nav-link active" aria-current="page" href="/" style={{ fontFamily: 'Poppins, sans-serif'}}>
                   Inicio
                 </a>
               </li>
@@ -38,17 +38,48 @@ const Navbar = () => {
                 <a
                   className="nav-link active"
                   aria-current="page"
-                  href="/inicio#soluciones"
+                  href="quehacemos"
                 >
                   ¿Que Hacemos?
                 </a>
               </li>
-             
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="quehacemos"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                ></a>
+                <ul className="dropdown-menu">
+                  <li>
+                    <a className="dropdown-item" href="paginasweb">
+                      Paginas web
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="publicidad">
+                      Publicidad
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="crecimientodemarca">
+                      Crecimiento de Marca
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="redessociales">
+                      Redes Sociales
+                    </a>
+                  </li>
+                </ul>
+              </li>
               <li className="nav-item">
                 <a
                   className="nav-link active"
                   aria-current="page"
                   href="portafolio"
+                  style={{ fontFamily: 'Poppins, sans-serif'}}
                 >
                   Portafolio
                 </a>
@@ -58,6 +89,7 @@ const Navbar = () => {
                   className="nav-link active"
                   aria-current="page"
                   href="contacto"
+                  style={{ fontFamily: 'Poppins, sans-serif'}}
                 >
                   Contacto
                 </a>
