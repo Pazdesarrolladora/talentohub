@@ -18,7 +18,7 @@ const Paginasweb = () => {
           <div className="col-12 col-lg-4 ">
             <Cardconbotones
               imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697082385/Website_Creator-rafiki_ksaky1.png"}
-              titulo={"Presencia Online Basica"}
+              titulo={"Plan Basico"}
               informacion={[
                 "Creación de una página web atractiva y funcional 🎨.",
                 "Menú adaptable 📋",
@@ -37,7 +37,7 @@ const Paginasweb = () => {
           <div className="col-12 col-lg-4 ">
             <Cardconbotones
               imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697082385/Online_wishes_list-rafiki_vgclwr.png"}
-              titulo={"Vende con estilo"}
+              titulo={"Plan Estandar"}
               informacion={[
                 "Creación de una tienda online atractiva y profesional 🎨",
                 "Carrito de compras 🛍️",
@@ -59,7 +59,7 @@ const Paginasweb = () => {
           <div className="col-12 col-lg-4">
             <Cardconbotones
               imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697082385/Rocket-rafiki_zdoec3.png"}
-              titulo={"Potencia tu negocio"}
+              titulo={"Plan Premium"}
               informacion={[
                 "Creación de una página web completa con tienda online 🌐",
                 "Todas las características del servicio de página web y e-commerce empresa",

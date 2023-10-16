@@ -19,7 +19,7 @@ const Publicidad = () => {
             <div className="col-4">
               <Cardconbotones
                 imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/brand_loyalty-pana_tlithf.png"}
-                titulo={"Presencia Online"}
+                titulo={"Plan Basico"}
                 informacion={[
                   "Investigación básica de palabras clave para la industria 🔍.",
                   "Creación y gestión de una campaña en una plataforma de publicidad (Google Ads o Facebook Ads) 📈.",
@@ -33,8 +33,8 @@ const Publicidad = () => {
             </div>
             <div className="col-4">
               <Cardconbotones
-                imagen={"imagen_url"}
-                titulo={"https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/Holding_the_arrow-rafiki_kmsmef.png"}
+                imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/Holding_the_arrow-rafiki_kmsmef.png"}
+                titulo={"Plan Estandar"}
                 informacion={[
                   "Investigación avanzada de palabras clave y análisis de competencia 🔍📈.",
                   "Creación y gestión de dos campañas en plataformas de publicidad seleccionadas 📈.",
@@ -50,7 +50,7 @@ const Publicidad = () => {
             <div className="col-4">
               <Cardconbotones
                 imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/Success_factors-amico_zfmein.png"}
-                titulo={"Dominio del mercado"}
+                titulo={"Plan Premium"}
                 informacion={[
                   "Investigación exhaustiva de palabras clave y análisis detallado de la competencia 🔍📊.",
                   "Creación y gestión de tres campañas en varias plataformas de publicidad 📈.",
