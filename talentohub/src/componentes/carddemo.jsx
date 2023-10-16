@@ -20,9 +20,9 @@ const CardDemo = ({ imagen,  texto1, texto2, titulo, enlace }) => {
          
         <div className="card__header-new"></div>
         <div className="card__body-new">
-          <h3 className="card__name-new">{titulo}</h3>
-          <p className="card__job-new">{texto1}</p>
-          <p className="card__bio-new">{texto2}.</p>
+          <h3 className="card__name-new"  style={{ fontFamily: 'Poppins, sans-serif',  fontSize: '25px', color: 'black' }}>{titulo}</h3>
+          <p className="card__job-new" >{texto1}</p>
+          <p className="card__bio-new" style={{ fontFamily: 'Poppins, sans-serif'}}>{texto2}.</p>
         
         </div>
       </div>

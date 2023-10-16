@@ -7,7 +7,7 @@ const Cardsinboton = ({ imagen, titulo, informacion }) => {
       <img src={imagen} className="card-img-top" alt="..." />
       <div className="card-body">
         <h5 className="card-title">{titulo}</h5>
-        <p className="card-text">
+        <p className="card-text"  style={{ fontFamily: 'Poppins, sans-serif', fontSize: '30px', color: 'black' }}>
           {informacion}
         </p>
       </div>
