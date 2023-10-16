@@ -15,11 +15,11 @@ const Cardconbotones = ({
       <div className="card border border-0" style={style}>
         <img src={imagen} className="card-img-top border border-0 " alt="..." />
         <div className="card-body border border-0 d-flex flex-column justify-content-between">
-          <h3 className="card-title text-center">{titulo}</h3>
+          <h3 className="card-title text-center" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 'bolder', fontSize: '30px', color: 'black' }}>{titulo}</h3>
           {informacion.map((info, index) => (
-            <p key={index} className="card-text">
-              {info}
-            </p>
+           <p key={index} className="card-text" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '16px', color: 'black' }}>
+           {info}
+         </p>
           ))}
 <a href={referencia} className="whatsapp-button">
   <div className="whatsapp-content">

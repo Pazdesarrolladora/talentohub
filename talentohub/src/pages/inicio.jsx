@@ -3,8 +3,8 @@ import Navbar from "../componentes/navbar";
 import Carrusel from "../componentes/carrusel";
 import CardDemo from "../componentes/carddemo";
 import Footer from "../componentes/footer";
+import CarruselContactanos from "../componentes/carruselContactanos";
 import "../css/Inicio.css"
-import Botonmagico from "../componentes/botonmagico";
 
 const Inicio = () => {
   return (
@@ -12,14 +12,20 @@ const Inicio = () => {
       <Navbar />
       <div className="main-content">
         <Carrusel/>
+        <br />
         
-        {/* <h6 className="enquepodemos">En Que Podemos Ayudarte</h6> */}
-        <h1 className="solucionesofrecemos">¿QUÉ SOLUCIONES OFRECEMOS?</h1>
-        <h5 className="elmejor">Queremos que seas el mejor!</h5>
-        <h5 className="enfocados">
-          Estamos enfocados en entregar soluciones personalizadas y
-          resultados de calidad.
-        </h5>
+       <div className="Texto text-center">
+        <h1 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 800, fontSize: '50px' }}>
+        ¿QUÉ SOLUCIONES OFRECEMOS?
+      </h1>
+      <h5 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 450, fontSize: '30px' }}>
+        Queremos que seas el mejor!
+      </h5>
+      <h5 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 400,fontSize: '25px' }}>
+        Estamos enfocados en entregar soluciones personalizadas y resultados de calidad.
+      </h5>
+      </div>
+      <br />
       </div>
       <div className="container">
         <div className="row">
@@ -78,21 +84,8 @@ const Inicio = () => {
           </div>
         </div>
       </div>
-      <div className="container-fluid contactanos">
-    <div className="row">
-        <div className="col-12 col-md-6 mb-3">
-            {/* <h1 className="deseas">Deseas obtener más información o necesitas algo especial? Lo que sea que tengas en mente, podemos hacerlo. ¡Contáctanos!</h1> */}
-        </div>
-        <br />
-        <br />
-        <div className="col-12 col-md-6 botoncontacto">
-            <div className="botonmagico">
-                <Botonmagico
-                enlace={"contacto"}/>
-            </div>
-        </div>
-    </div>
-</div>
+      <CarruselContactanos />
+
       <Footer />
     </>
   );

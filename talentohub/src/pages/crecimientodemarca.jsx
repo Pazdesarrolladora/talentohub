@@ -18,13 +18,13 @@ const crecimientodemarca = () => {
             <div className="col-6">
             <Cardconbotones
               imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/Internet_on_the_go-amico_ctkuim.png"}
-              titulo={"Establece tu identidad"}
+              titulo={"Plan Basico"}
               informacion={[
-                "Creación y desarrollo de la identidad visual de la marca 🎨.",
-                "Desarrollo de una estrategia básica de marketing digital 📈.",
-                "Creación de contenido relevante y atractivo para la marca 📸.",
-                "Establecimiento de presencia en redes sociales 🔗.",
-                "Análisis básico de la competencia 👥.",
+                "• Creación y desarrollo de la identidad visual de la marca ",
+                "• Desarrollo de una estrategia básica de marketing digital ",
+                "• Creación de contenido relevante y atractivo para la marca ",
+                "• Establecimiento de presencia en redes sociales ",
+                "• Análisis básico de la competencia ",
                 // Puedes agregar más información si es necesario
               ]}
               
@@ -35,14 +35,14 @@ const crecimientodemarca = () => {
             <div className="col-6">
             <Cardconbotones
               imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/Next_option-rafiki_wkmcjg.png"}
-              titulo={"Impulsa tu marca al otro nivel"}
+              titulo={"Plan Premium"}
               informacion={[
-                "Desarrollo completo de la identidad visual, tono de marca y mensaje 🌐.",
-                "Desarrollo e implementación de una estrategia completa de marketing digital 📈.",
-                "Creación de contenido creativo y altamente atractivo para la marca 🚀.",
-                "Gestión avanzada y potenciada de la presencia en redes sociales 🔗.",
-                "Análisis profundo de la competencia y del mercado 👥🌐.",
-                "Desarrollo de campañas especiales para eventos clave 🎉.",
+                "• Desarrollo completo de la identidad visual, tono de marca y mensaje ",
+                "• Desarrollo e implementación de una estrategia completa de marketing digital ",
+                "• Creación de contenido creativo y altamente atractivo para la marca ",
+                "• Gestión avanzada y potenciada de la presencia en redes sociales ",
+                "• Análisis profundo de la competencia y del mercado ",
+                "• Desarrollo de campañas especiales para eventos clave ",
                 // Puedes agregar más información si es necesario
               ]}
               
