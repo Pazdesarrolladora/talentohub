@@ -13,7 +13,7 @@ const Inicio = () => {
       <div className="main-content">
         <Carrusel/>
         
-        <h6 className="enquepodemos">En Que Podemos Ayudarte</h6>
+        {/* <h6 className="enquepodemos">En Que Podemos Ayudarte</h6> */}
         <h1 className="solucionesofrecemos">¿QUÉ SOLUCIONES OFRECEMOS?</h1>
         <h5 className="elmejor">Queremos que seas el mejor!</h5>
         <h5 className="enfocados">
@@ -81,8 +81,10 @@ const Inicio = () => {
       <div className="container-fluid contactanos">
     <div className="row">
         <div className="col-12 col-md-6 mb-3">
-            <h1 className="deseas">Deseas obtener más información o necesitas algo especial? Lo que sea que tengas en mente, podemos hacerlo. ¡Contáctanos!</h1>
+            {/* <h1 className="deseas">Deseas obtener más información o necesitas algo especial? Lo que sea que tengas en mente, podemos hacerlo. ¡Contáctanos!</h1> */}
         </div>
+        <br />
+        <br />
         <div className="col-12 col-md-6 botoncontacto">
             <div className="botonmagico">
                 <Botonmagico
