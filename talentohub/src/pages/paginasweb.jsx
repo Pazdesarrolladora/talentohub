@@ -2,8 +2,9 @@ import Navbar from "../componentes/navbar";
 import Promociones from "../componentes/promociones";
 import "../css/paginaweb.css";
 import Cardconbotones from "../componentes/cardconbotones";
-import Cardinfo from "../componentes/cardinfo";
+
 import Footer from "../componentes/footer";
+import CardLargas from "../componentes/cardlargas";
 
 const Paginasweb = () => {
   return (
@@ -17,7 +18,9 @@ const Paginasweb = () => {
         <div className="row">
           <div className="col-12 col-lg-4 ">
             <Cardconbotones
-              imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697082385/Website_Creator-rafiki_ksaky1.png"}
+              imagen={
+                "https://res.cloudinary.com/dcwloh062/image/upload/v1697082385/Website_Creator-rafiki_ksaky1.png"
+              }
               titulo={"Presencia Online Basica"}
               informacion={[
                 "Creación de una página web atractiva y funcional 🎨.",
@@ -27,16 +30,17 @@ const Paginasweb = () => {
                 "Vinculación con redes sociales 🔗",
                 "Certificado SSL incluido 🔒",
                 "Dominio gratis por 1 año 🆓",
-                "¡Lleva gratis el tutorial online para administrar tu Página Web! ✅", 
-                
-                 ]}
+                "¡Lleva gratis el tutorial online para administrar tu Página Web! ✅",
+              ]}
               botoninfo={"Hablemos por WhatsApp "}
               referencia={"http://api.whatsapp.com/send?phone=56945111875"}
             />
           </div>
           <div className="col-12 col-lg-4 ">
             <Cardconbotones
-              imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697082385/Online_wishes_list-rafiki_vgclwr.png"}
+              imagen={
+                "https://res.cloudinary.com/dcwloh062/image/upload/v1697082385/Online_wishes_list-rafiki_vgclwr.png"
+              }
               titulo={"Vende con estilo"}
               informacion={[
                 "Creación de una tienda online atractiva y profesional 🎨",
@@ -48,8 +52,8 @@ const Paginasweb = () => {
                 "Vinculación con redes sociales 🔗",
                 "Certificado SSL incluido 🔒",
                 "Dominio gratis por 1 año 🆓",
-                "¡Lleva gratis el tutorial online para administrar tu Página Web! ✅"
-                
+                "¡Lleva gratis el tutorial online para administrar tu Página Web! ✅",
+
                 // Agrega más información si es necesario
               ]}
               botoninfo={"WhatsApp"}
@@ -58,7 +62,9 @@ const Paginasweb = () => {
           </div>
           <div className="col-12 col-lg-4">
             <Cardconbotones
-              imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697082385/Rocket-rafiki_zdoec3.png"}
+              imagen={
+                "https://res.cloudinary.com/dcwloh062/image/upload/v1697082385/Rocket-rafiki_zdoec3.png"
+              }
               titulo={"Potencia tu negocio"}
               informacion={[
                 "Creación de una página web completa con tienda online 🌐",
@@ -69,8 +75,7 @@ const Paginasweb = () => {
                 "Certificado SSL incluido 🔒",
                 "Dominio gratis por 1 año 🆓.",
                 "¡Lleva gratis el tutorial online para administrar tu Página Web! ✅",
-                
-                
+
                 // Agrega más información si es necesario
               ]}
               botoninfo={"WhatsApp"}
@@ -79,53 +84,30 @@ const Paginasweb = () => {
           </div>
         </div>
         <div className="container">
-          <div className="row">
-            <div className="col-6">
-              <Cardinfo
-                imagen={
-                  "https://i.pinimg.com/736x/93/29/00/9329004761a79d36f5171aa0308125f1.jpg"
-                }
-                titulo={"Proceso"}
-                informacion={
-                  "Inicia seleccionando tu promoción preferida y recibirás un formulario para reservar tu proyecto. En  dos semanas, tendrás tu proyecto listo para afinar detalles. Te proporcionamos el proyecto activo con fotografías, y como autoadministrador, puedes cargar imágenes ilimitadas."
-                }
-              />
-            </div>
-            <div className="col-6">
-              <Cardinfo
-                imagen={
-                  "https://i.pinimg.com/564x/2c/2e/e0/2c2ee05faeeaa92532d532f565c8a697.jpg"
-                }
-                titulo={"Renovacion"}
-                informacion={
-                  "Durante el primer año, disfruta de dominio y alojamiento web gratuitos. A partir del segundo año, la renovación anual se realiza por 1 UTM, asegurando continuidad y estabilidad para tu servicio."
-                }
-              />
-            </div>
-          </div>
-          <div className="col-12 order-6">
-            <Cardinfo
-              imagen={
-                "https://i.pinimg.com/564x/cf/a3/8b/cfa38b18b23a3887008bc117a6f29ac5.jpg"
-              }
-              titulo={"Información para Tiendas"}
-              informacion={
-                "Entregamos tu tienda con 10 productos/servicios y la capacidad de subir productos adicionales. Configuramos envíos por zona y te enseñamos a manejar pagos con débito o crédito directamente en tu cuenta bancaria."
-              }
-            />
-          </div>
-          <div className="col-12 order-7">
-            <Cardinfo
-              imagen={
-                "https://i.pinimg.com/564x/8b/b8/30/8bb830a8930c74bf6abdb04288ce5330.jpg"
-              }
-              titulo={"Otros detalles"}
-              informacion={
-                "Nuestros planes incluyen dominio .com gratis. Puedes agregar extensiones por un costo mínimo. Nuestras páginas web no necesitan hosting, ya que están alojadas en nuestros servidores. Ten en cuenta que nuestras páginas web no se pueden trasladar a otro servidor, ya que utilizamos una plataforma propia."
-              }
-            />
-          </div>
-        </div>
+  <div className="row">
+    <div className="col-12 mb-4">
+    <CardLargas
+  imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697424338/wepik-export-20231016023605UXSO_tpiknh.png "
+  texto1={"texto bla bla bla"}/>
+
+      
+     
+    </div>
+    <div className="col-12 mb-4">
+    <CardLargas
+      imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697424338/wepik-export-20231016024008eRPH_mu2ha9.png "}
+      texto1={"texto bla bla bla"}/>
+   
+    </div>
+    <div className="col-12 mb-4">
+    <CardLargas
+      imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697424338/wepik-export-2023101602424416u2_vwxs6q.png "}
+      texto1={"texto bla bla bla"}/>
+   
+    </div>
+  </div>
+</div>
+
       </div>
       <Footer />
     </>
