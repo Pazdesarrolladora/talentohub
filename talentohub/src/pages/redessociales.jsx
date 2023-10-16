@@ -18,13 +18,13 @@ const Redessociales = () => {
             <div className="col-6">
               <Cardconbotones
                 imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697404365/Online_world-bro_okywew.png"}
-                titulo={"Presencia social inicial"}
+                titulo={"Plan Basico"}
                 informacion={[
-                  "Creación y optimización de perfiles en las principales redes sociales 🔗.",
-                  "Desarrollo de una estrategia de contenido inicial 📅.",
-                  "Publicación regular y programada en las redes sociales ⏰.",
-                  "Interacción básica con seguidores 👥.",
-                  "Informe mensual de rendimiento 📊.",
+                  "• Creación y optimización de perfiles en las principales redes sociales ",
+                  "• Desarrollo de una estrategia de contenido inicial ",
+                  "• Publicación regular y programada en las redes sociales ",
+                  "• Interacción básica con seguidores ",
+                  "• Informe mensual de rendimiento ",
                   // Puedes agregar más información si es necesario
                 ]}
                 
@@ -35,14 +35,14 @@ const Redessociales = () => {
             <div className="col-6">
               <Cardconbotones
                 imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/Social_Growth-cuate_odloga.png"}
-                titulo={"Impulsa tu presencia"}
+                titulo={"Plan Premium"}
                 informacion={[
-                  "Creación y optimización de perfiles en las principales redes sociales 🔗.",
-                  "Desarrollo y ejecución de una estrategia de contenido avanzada 📅.",
-                  "Publicación regular y estratégica para maximizar el alcance ⏰.",
-                  "Interacción activa con seguidores, gestión de comentarios y mensajes directos 👥💬.",
-                  "Gestión de anuncios en redes sociales 📢.",
-                  "Informe detallado de rendimiento con recomendaciones para la mejora continua 📊.",
+                  "• Creación y optimización de perfiles en las principales redes sociales ",
+                  "• Desarrollo y ejecución de una estrategia de contenido avanzada ",
+                  "• Publicación regular y estratégica para maximizar el alcance ",
+                  "• Interacción activa con seguidores, gestión de comentarios y mensajes directos ",
+                  "• Gestión de anuncios en redes sociales ",
+                  "• Informe detallado de rendimiento con recomendaciones para la mejora continua ",
                   // Puedes agregar más información si es necesario
                 ]}
                 
