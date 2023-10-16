@@ -1,18 +1,32 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
+import "../css/Cardconbotones.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faWhatsapp} from "@fortawesome/free-brands-svg-icons";
 
-const Cardconbotones = ({ imagen, titulo, informacion, botoninfo, referencia, style }) => {
+const Cardconbotones = ({
+  imagen,
+  titulo,
+  informacion,
+  referencia,
+  style,
+}) => {
   return (
     <>
-      <div className="card" style={style}>
-        <img src={imagen} className="card-img-top" alt="..." />
-        <div className="card-body">
-          <h3 className="card-title">{titulo}</h3>
+      <div className="card border border-0" style={style}>
+        <img src={imagen} className="card-img-top border border-0 " alt="..." />
+        <div className="card-body border border-0 d-flex flex-column justify-content-between">
+          <h3 className="card-title text-center">{titulo}</h3>
           {informacion.map((info, index) => (
-            <p key={index} className="card-text">{info}</p>
+            <p key={index} className="card-text">
+              {info}
+            </p>
           ))}
-          <a href={referencia} className="btn btn-warning d-grid gap-2">
-            {botoninfo}
-          </a>
+<a href={referencia} className="whatsapp-button">
+  <div className="whatsapp-content">
+    <FontAwesomeIcon icon={faWhatsapp} className="whatsapp-icon" />
+    <span>Conversemos por WhatsApp</span>
+  </div>
+</a>
         </div>
       </div>
       <br />

@@ -27,9 +27,10 @@ const Paginasweb = () => {
                 "Vinculación con redes sociales 🔗",
                 "Certificado SSL incluido 🔒",
                 "Dominio gratis por 1 año 🆓",
-                "¡Lleva gratis el tutorial online para administrar tu Página Web! ✅",
+                "¡Lleva gratis el tutorial online para administrar tu Página Web! ✅", 
+                
                  ]}
-              botoninfo={"¡Voy!"}
+              botoninfo={"Hablemos por WhatsApp "}
               referencia={"http://api.whatsapp.com/send?phone=56945111875"}
             />
           </div>
@@ -51,7 +52,7 @@ const Paginasweb = () => {
                 
                 // Agrega más información si es necesario
               ]}
-              botoninfo={"¡Voy!"}
+              botoninfo={"WhatsApp"}
               referencia={"http://api.whatsapp.com/send?phone=56945111875"}
             />
           </div>
@@ -72,7 +73,7 @@ const Paginasweb = () => {
                 
                 // Agrega más información si es necesario
               ]}
-              botoninfo={"¡Voy!"}
+              botoninfo={"WhatsApp"}
               referencia={"http://api.whatsapp.com/send?phone=56945111875"}
             />
           </div>

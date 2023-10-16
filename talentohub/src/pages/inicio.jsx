@@ -46,6 +46,7 @@ const Inicio = () => {
                 "A través de estrategias publicitarias ADS, creamos conexiones significativas que generan clientes y conversiones."
               }
               texto2={""}
+              enlace={"publicidad"}
             />
           </div>
 
@@ -59,6 +60,7 @@ const Inicio = () => {
                 "Fomentamos el crecimiento auténtico de tu marca, atrayendo seguidores leales y creando experiencias excepcionales."
               }
               texto2={""}
+              enlace={"crecimientodemarca"}
             />
           </div>
           <div className="col-12 col-md-6 col-lg-3">
@@ -71,18 +73,20 @@ const Inicio = () => {
                 "En redes sociales, creamos comunidades, conversaciones y embajadores de marca."
               }
               texto2={""}
+              enlace={"redessociales"}
             />
           </div>
         </div>
       </div>
       <div className="container-fluid contactanos">
     <div className="row">
-        <div className="col-12 col-md-6">
+        <div className="col-12 col-md-6 mb-3">
             <h1 className="deseas">Deseas obtener más información o necesitas algo especial? Lo que sea que tengas en mente, podemos hacerlo. ¡Contáctanos!</h1>
         </div>
         <div className="col-12 col-md-6 botoncontacto">
             <div className="botonmagico">
-                <Botonmagico/>
+                <Botonmagico
+                enlace={"contacto"}/>
             </div>
         </div>
     </div>

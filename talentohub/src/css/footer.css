@@ -1,4 +1,8 @@
 #logo {
     filter: brightness(0) invert(1); /* Invertir colores de la imagen (opcional) */
    
-  }
+   
+}
+.hecho{
+  margin-left: 20px;
+}
