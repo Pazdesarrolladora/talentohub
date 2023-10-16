@@ -1,5 +1,5 @@
-// Importa tus estilos CSS para el carrusel
-import "../css/carrusel.css"; 
+import "../css/carrucelcontactanos.css";
+import BotonMagico from "../componentes/botonmagico";
 
 const CarruselContactanos = () => {
   return (
@@ -7,18 +7,17 @@ const CarruselContactanos = () => {
       <div id="carouselContactanos" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="4000">
-            <img src="https://res.cloudinary.com/dcwloh062/image/upload/v1697420092/wepik-export-20231016013230FczD_ecooor.png" className="d-block w-100" alt="..." />
+            <img
+              src="https://res.cloudinary.com/dcwloh062/image/upload/v1697420092/wepik-export-20231016013230FczD_ecooor.png"
+              className="d-block w-100"
+              alt="..."
+            />
+            <div className="carousel-content">
+              <BotonMagico 
+               enlace={"contacto"}/>
+            </div>
           </div>
-          {/* Agrega más elementos del carrusel según sea necesario */}
         </div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#carouselContactanos" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#carouselContactanos" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
-        </button>
       </div>
     </>
   );

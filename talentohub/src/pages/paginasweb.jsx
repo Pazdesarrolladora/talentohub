@@ -1,8 +1,8 @@
 import Navbar from "../componentes/navbar";
-import Promociones from "../componentes/promociones";
+
 import "../css/paginaweb.css";
 import Cardconbotones from "../componentes/cardconbotones";
-
+import CarruselContactanos from "../componentes/carruselContactanos";
 import Footer from "../componentes/footer";
 import CardLargas from "../componentes/cardlargas";
 
@@ -11,7 +11,7 @@ const Paginasweb = () => {
     <>
       <Navbar />
       <div className="main-content">
-        <Promociones />
+       
         <h1 className="tituloweb">Planes de E-commerce y Desarrollo Web</h1>
       </div>
       <div className="container">
@@ -109,6 +109,7 @@ const Paginasweb = () => {
 </div>
 
       </div>
+      <CarruselContactanos />
       <Footer />
     </>
   );

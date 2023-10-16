@@ -1,0 +1,16 @@
+.carousel-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%); /* Corrige la transformación para centrado vertical y horizontal */
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-content {
+      /* Estilos específicos para .carousel-content en pantallas pequeñas */
+      /* Puedes ajustar estos estilos según tus necesidades */
+      /* Reduce la altura */
+      transform: translate(10%, 28%);
+    }
+  }

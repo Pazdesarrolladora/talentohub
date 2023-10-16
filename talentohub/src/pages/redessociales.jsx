@@ -4,6 +4,8 @@ import "../css/paginaweb.css";
 import Cardconbotones from "../componentes/cardconbotones";
 import Cardinfo from "../componentes/cardinfo";
 import Footer from "../componentes/footer";
+import CardLargas from "../componentes/cardlargas";
+import CarruselContactanos from "../componentes/carruselContactanos";
 
 const Redessociales = () => {
   return (
@@ -78,33 +80,33 @@ const Redessociales = () => {
             </div>
           </div>
         </div>
-        <div className="container">
-          <div className="row">
-            <div className="col-6">
-              <Cardinfo
-                imagen={
-                  "https://i.pinimg.com/564x/cf/a3/8b/cfa38b18b23a3887008bc117a6f29ac5.jpg"
-                }
-                titulo={"Informacion para Tiendas!"}
-                informacion={
-                  "Entregamos tu tienda con 10 productos/servicios y la capacidad de subir productos adicionales. Configuramos envíos por zona y te enseñamos a manejar pagos con débito o crédito directamente en tu cuenta bancaria."
-                }
-              />
-            </div>
-            <div className="col-6">
-              <Cardinfo
-                imagen={
-                  "https://i.pinimg.com/564x/8b/b8/30/8bb830a8930c74bf6abdb04288ce5330.jpg"
-                }
-                titulo={"Otros detalles"}
-                informacion={
-                  "Nuestros planes incluyen dominio .com gratis. Puedes agregar extensiones por un costo mínimo. Nuestras páginas web no necesitan hosting, ya que están alojadas en nuestros servidores. Ten en cuenta que nuestras páginas web no se pueden trasladar a otro servidor, ya que utilizamos una plataforma propia."
-                }
-              />
-            </div>
-          </div>
-        </div>
+       
       </div>
+      <div className="container">
+  <div className="row">
+    <div className="col-12 mb-4">
+    <CardLargas
+  imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697424338/wepik-export-20231016023605UXSO_tpiknh.png "
+  texto1={"texto bla bla bla"}/>
+
+      
+     
+    </div>
+    <div className="col-12 mb-4">
+    <CardLargas
+      imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697424338/wepik-export-20231016024008eRPH_mu2ha9.png "}
+      texto1={"texto bla bla bla"}/>
+   
+    </div>
+    <div className="col-12 mb-4">
+    <CardLargas
+      imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697424338/wepik-export-2023101602424416u2_vwxs6q.png "}
+      texto1={"texto bla bla bla"}/>
+   
+    </div>
+  </div>
+</div>
+<CarruselContactanos />
       <Footer />
     </>
   );

@@ -14,17 +14,17 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Inicio />} />
-        <Route path="quehacemos" element={<Quehacemos />} />
-        <Route path="paginasweb" element={<Paginasweb />} />
-        <Route path="publicidad" element={<Publicidad />} />
-        <Route path="portafolio" element={<Portafolio />} />
-        <Route path="crecimientodemarca" element={<Crecimientodemarca />} />
-        <Route path="redessociales" element={<Redessociales />} />
-        <Route path="contacto" element={<Contacto />} />
+      <Route path="/" element={<Inicio />} />
+        <Route path="/inicio" element={<Inicio />} />
+        <Route path="/quehacemos" element={<Quehacemos />} />
+        <Route path="/paginasweb" element={<Paginasweb />} />
+        <Route path="/publicidad" element={<Publicidad />} />
+        <Route path="/portafolio" element={<Portafolio />} />
+        <Route path="/crecimientodemarca" element={<Crecimientodemarca />} />
+        <Route path="/redessociales" element={<Redessociales />} />
+        <Route path="/contacto" element={<Contacto />} />
       </Routes>
     </BrowserRouter>
   );
 }
-
 export default App;

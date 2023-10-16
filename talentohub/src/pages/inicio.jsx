@@ -12,9 +12,9 @@ const Inicio = () => {
       <Navbar />
       <div className="main-content">
         <Carrusel/>
-        <br />
+        <div id="soluciones" style={{ marginBottom: '90px' }}></div>
         
-       <div className="Texto text-center">
+       <div className="Texto text-center ">
         <h1 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 800, fontSize: '50px' }}>
         ¿QUÉ SOLUCIONES OFRECEMOS?
       </h1>
