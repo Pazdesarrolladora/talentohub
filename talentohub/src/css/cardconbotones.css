@@ -29,20 +29,20 @@
     padding: 10px 20px; /* Espaciado interior del botón */
     border-radius: 5px; /* Bordes redondeados */
     text-align: center; /* Centrar horizontalmente el contenido */
-    transition: background-color 0.3s; /* Efecto de transición de color de fondo al pasar el ratón */
+    transition: background-color 0.3s; 
   }
   
   .whatsapp-content {
     display: flex;
-    align-items: center; /* Centrar verticalmente el contenido */
-    justify-content: center; /* Centrar horizontalmente el contenido */
+    align-items: center; 
+    justify-content: center; 
   }
   
   .whatsapp-icon {
-    font-size: 24px; /* Tamaño del ícono */
-    margin-right: 5px; /* Espacio entre el ícono y el texto */
+    font-size: 24px; 
+    margin-right: 5px; 
   }
   
   .whatsapp-button:hover {
-    background-color: #128c7e; /* Cambiar el color de fondo al pasar el ratón */
+    background-color: #128c7e;
   }
