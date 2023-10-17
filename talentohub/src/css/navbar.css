@@ -29,6 +29,7 @@ ul li a {
   font-weight: 600;
   transition: 0.5s;
   z-index: 1;
+  
 }
 
 ul li a:before {
@@ -72,18 +73,4 @@ ul li a:focus:after {
 }
 
 
-/* Estilo para los íconos de redes sociales */
-.nav-link.active.m-1 {
-  display: inline-block; /* Esto permite que los elementos ocupen el espacio horizontal */
-}
-
-.nav-link.active.m-1 .svg-inline--fa {
-  font-size: 24px; /* Ajusta el tamaño de los íconos según tus necesidades */
-  margin-right: 10px; /* Ajusta el espacio a la derecha si lo deseas */
-  transition: color 0.3s; /* Agrega una transición para el cambio de color */
-}
-
-.nav-link.active.m-1 .svg-inline--fa:hover {
-  color: #838383; /* Cambia el color al pasar el mouse por encima */
-}
 

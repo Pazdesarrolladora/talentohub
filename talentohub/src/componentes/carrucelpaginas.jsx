@@ -11,6 +11,7 @@ const CarrucelPaginas = ({imagen}) => {
               className="d-block w-100"
               alt="First slide"
             />
+            
           </div>
         </div>
       </div>
