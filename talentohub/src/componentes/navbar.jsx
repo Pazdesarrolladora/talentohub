@@ -43,37 +43,6 @@ const Navbar = () => {
                   ¿Que Hacemos?
                 </a>
               </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="quehacemos"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                ></a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="paginasweb">
-                      Paginas web
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="publicidad">
-                      Publicidad
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="crecimientodemarca">
-                      Crecimiento de Marca
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="redessociales">
-                      Redes Sociales
-                    </a>
-                  </li>
-                </ul>
-              </li>
               <li className="nav-item">
                 <a
                   className="nav-link active"
