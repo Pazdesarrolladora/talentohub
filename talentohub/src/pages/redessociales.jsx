@@ -12,7 +12,7 @@ const Redessociales = () => {
       <Navbar />
       <CarrucelPaginas
         imagen={
-          "https://res.cloudinary.com/dcwloh062/image/upload/v1697464056/wepik-export-202310161346261dJJ_tkcaxq.png"
+          "https://res.cloudinary.com/dcwloh062/image/upload/v1697560369/Redess_cu1jrw.png"
         }
       />
       <div className="main-content">

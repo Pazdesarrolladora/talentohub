@@ -13,7 +13,7 @@ const Paginasweb = () => {
       <Navbar />
       <div className="main-content">
        <CarrucelPaginas
-       imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697464056/wepik-export-20231016134502Y89B_qbswhu.png"/>
+       imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697560370/ecommerce_a6tpv5.png"/>
       </div>
       <div className="container">
         <div className="row">
@@ -95,7 +95,7 @@ const Paginasweb = () => {
     </div>
     <div className="col-12 mb-4" >
       <CardLargas
-        imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697458202/wepik-export-20231016120822H2bc_subkpz.png"}
+        imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697557430/wepik-export-20231016120822H2bc_subkpz.png"}
         texto1={"Nuestro equipo altamente cualificado lleva a cabo la implementación del proyecto, ajustándose a la planificación estratégica inicial. Cada detalle se perfecciona cuidadosamente para garantizar que el resultado final cumpla con tus expectativas y necesidades específicas."}
       />
     </div>
