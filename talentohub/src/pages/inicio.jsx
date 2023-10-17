@@ -1,6 +1,5 @@
 import "../css/App.css";
 import Navbar from "../componentes/navbar";
-
 import CardDemo from "../componentes/carddemo";
 import Footer from "../componentes/footer";
 import CarruselContactanos from "../componentes/carruselContactanos";

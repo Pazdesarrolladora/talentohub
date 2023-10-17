@@ -1,9 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faInstagram,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
+
 import "../css/navbar.css";
 import TH from "../imagenes/TH.png";
 const Navbar = () => {
@@ -38,21 +33,49 @@ const Navbar = () => {
                 <a
                   className="nav-link active"
                   aria-current="page"
-                  href="/#soluciones"
+                  href="quienes"
                 >
-                  ¿Que Hacemos?
+                  ¿Quienes Somos?
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className="nav-link active"
                   aria-current="page"
-                  href="portafolio"
-                  style={{ fontFamily: 'Poppins, sans-serif'}}
+                  href="paginasweb"
                 >
-                  Portafolio
+                  Desarrollo Web
                 </a>
               </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="publicidad"
+                  style={{ fontFamily: 'Poppins, sans-serif'}}
+                >
+                  Publicidad
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="crecimientodemarca"
+                >
+                  Crecimiento
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="redessociales"
+                >
+                  RRSS
+                </a>
+              </li>
+              
               <li className="nav-item">
                 <a
                   className="nav-link active"
@@ -64,15 +87,7 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            <a className="nav-link active m-1" aria-current="page" href="#">
-              <FontAwesomeIcon icon={faFacebook} />
-            </a>
-            <a className="nav-link active m-1" aria-current="page" href="#">
-              <FontAwesomeIcon icon={faInstagram} />
-            </a>
-            <a className="nav-link active m-1" aria-current="page" href="#">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </a>
+            
           </div>
         </div>
       </nav>
