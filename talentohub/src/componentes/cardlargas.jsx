@@ -8,7 +8,7 @@ const CardLargas = ({ imagen, titulo, texto1 }) => {
       <img src={imagen} alt="Short description" />
       <div className="additional-text">
         <h2>{titulo}</h2>
-        <p  style={{ fontFamily: 'Poppins, sans-serif',  fontSize: '20px', color: 'white' }}>{texto1}</p>
+        <p  style={{ fontFamily: 'Poppins, sans-serif',  fontSize: '20px', color: 'white',margin:"25px" }}>{texto1}</p>
       </div>
     </div>
   );

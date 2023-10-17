@@ -1,11 +1,12 @@
 import "../css/App.css";
 import Navbar from "../componentes/navbar";
-import Carrusel from "../componentes/carrusel";
+
 import CardDemo from "../componentes/carddemo";
 import Footer from "../componentes/footer";
 import CarruselContactanos from "../componentes/carruselContactanos";
 import "../css/Inicio.css"
-import Promociones from "../componentes/promociones";
+import CarrucelPaginas from "../componentes/carrucelpaginas";
+
 
 
 const Inicio = () => {
@@ -13,10 +14,11 @@ const Inicio = () => {
     <>
       <Navbar />
       <div className="main-content">
-        <Carrusel/>
-        <br />
+       <CarrucelPaginas
+       imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697417408/wepik-export-20231016004919RTME_fyaunf.png"/>
         
-       <div className="Texto text-center ">
+        
+       <div className="Texto text-center "id="soluciones">
         <h1 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 800, fontSize: '50px' }}>
         ¿QUÉ SOLUCIONES OFRECEMOS?
       </h1>
@@ -87,7 +89,6 @@ const Inicio = () => {
         </div>
       </div>
       <CarruselContactanos />
-
       <Footer />
     </>
   );

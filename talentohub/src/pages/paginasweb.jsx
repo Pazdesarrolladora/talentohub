@@ -5,14 +5,15 @@ import Cardconbotones from "../componentes/cardconbotones";
 import CarruselContactanos from "../componentes/carruselContactanos";
 import Footer from "../componentes/footer";
 import CardLargas from "../componentes/cardlargas";
+import CarrucelPaginas from "../componentes/carrucelpaginas";
 
 const Paginasweb = () => {
   return (
     <>
       <Navbar />
       <div className="main-content">
-        <Promociones />
-        <h1 className="tituloweb">Planes de E-commerce y Desarrollo Web</h1>
+       <CarrucelPaginas
+       imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697464056/wepik-export-20231016134502Y89B_qbswhu.png"/>
       </div>
       <div className="container">
         <div className="row">
@@ -84,31 +85,31 @@ const Paginasweb = () => {
             />
           </div>
         </div>
-          <div className="row">
+<div className="container">
+  <div className="row" >
     <div className="col-12 mb-4">
-    <CardLargas
-  imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697458202/wepik-export-20231016115840HNzB_ub8prt.png"
-  texto1={"En la fase de diseño y desarrollo, nuestros creativos toman la iniciativa para dar vida al proyecto, fusionando la creatividad con la funcionalidad. Nos esforzamos por superar tus expectativas, personalizando cada aspecto según tus requisitos para asegurar un producto verdaderamente único"}/>
-
-      
-     
+      <CardLargas
+        imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697458202/wepik-export-20231016115840HNzB_ub8prt.png"
+        texto1={"En la fase de diseño y desarrollo, nuestros creativos toman la iniciativa para dar vida al proyecto, fusionando la creatividad con la funcionalidad. Nos esforzamos por superar tus expectativas, personalizando cada aspecto según tus requisitos para asegurar un producto verdaderamente único"}
+      />
+    </div>
+    <div className="col-12 mb-4" >
+      <CardLargas
+        imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697458202/wepik-export-20231016120822H2bc_subkpz.png"}
+        texto1={"Nuestro equipo altamente cualificado lleva a cabo la implementación del proyecto, ajustándose a la planificación estratégica inicial. Cada detalle se perfecciona cuidadosamente para garantizar que el resultado final cumpla con tus expectativas y necesidades específicas."}
+      />
     </div>
     <div className="col-12 mb-4">
-    <CardLargas
-      imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697458202/wepik-export-20231016120822H2bc_subkpz.png"}
-      texto1={"Nuestro equipo altamente cualificado lleva a cabo la implementación del proyecto, ajustándose a la planificación estratégica inicial. Cada detalle se perfecciona cuidadosamente para garantizar que el resultado final cumpla con tus expectativas y necesidades específicas."}/>
-   
-    </div>
-    <div className="col-12 mb-4">
-    <CardLargas
-      imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697458207/wepik-export-202310161149598ypy_hgk9ku.png"}
-      texto1={"En el corazón de nuestro compromiso está la entrega de un proyecto completamente funcional. Los desarrolladores de TalentoHuB se aseguran de que cada aspecto del proyecto esté operativo, respaldado por evaluaciones previas exhaustivas para garantizar su correcto funcionamiento y tu satisfacción total"}/>
-   
+      <CardLargas
+        imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697458207/wepik-export-202310161149598ypy_hgk9ku.png"}
+        texto1={"En el corazón de nuestro compromiso está la entrega de un proyecto completamente funcional. Los desarrolladores de TalentoHuB se aseguran de que cada aspecto del proyecto esté operativo, respaldado por evaluaciones previas exhaustivas para garantizar su correcto funcionamiento y tu satisfacción total"}
+      />
     </div>
   </div>
 </div>
+</div>
+<CarruselContactanos />
 
-      </div>
       <Footer />
     </>
   );

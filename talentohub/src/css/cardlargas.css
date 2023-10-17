@@ -12,6 +12,7 @@
   overflow: hidden;
   transition: transform 0.3s;
   margin: 0 auto; /* Centra horizontalmente el contenedor en el padre */
+
 }
 
 .cardLarga img {
@@ -33,6 +34,7 @@
   opacity: 0;
   transform: translateY(-100%);
   transition: opacity 0.3s, transform 0.3s;
+  
 }
 
 .cardLarga:hover {
