@@ -14,7 +14,7 @@ const crecimientodemarca = () => {
       <Navbar />
       <div className="main-content">
      <CarrucelPaginas
-     imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697464056/wepik-export-20231016134502Y89B_qbswhu.png"/>
+     imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697560371/CrecimientoMarca_kccltv.png"/>
       
         <div className="container">
           <div className="row">
