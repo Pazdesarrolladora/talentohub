@@ -1,8 +1,7 @@
 .cardLarga {
-  width: 700px; /* Ancho deseado de la tarjeta */
-  height: 200px; /* Alto deseado de la tarjeta */
-  /* background-color: #f0f0f0;
-  border: 1px solid #ccc; */
+  width: 100%; /* Ancho al 100% del contenedor */
+  max-width: 1400px; /* Ancho máximo de 700px para evitar que se haga demasiado ancha en pantallas grandes */
+  height: 200px; /* El alto se ajustará automáticamente según el contenido */
   display: flex;
   flex-direction: column; /* Cambiamos a disposición vertical */
   align-items: center;
@@ -12,12 +11,10 @@
   overflow: hidden;
   transition: transform 0.3s;
   margin: 0 auto; /* Centra horizontalmente el contenedor en el padre */
-
 }
 
 .cardLarga img {
   max-width: 100%; /* Ajusta el ancho máximo de la imagen al ancho de la tarjeta */
- 
 }
 
 .cardLarga .additional-text {
@@ -32,9 +29,8 @@
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transform: translateY(-100%);
+  transform: translateY(100%); /* Cambiamos esto para que inicie desde abajo */
   transition: opacity 0.3s, transform 0.3s;
-  
 }
 
 .cardLarga:hover {
