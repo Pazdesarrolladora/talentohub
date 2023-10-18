@@ -1,5 +1,8 @@
 
 import PropTypes from 'prop-types';
+
+
+
 const CarrucelPaginas = ({imagen}) => {
   return (
     <div className="main-content mb-5">

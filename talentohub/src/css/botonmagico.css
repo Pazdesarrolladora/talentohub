@@ -1,15 +1,16 @@
+/* Estilos para el botón mágico en pantallas grandes */
 .botonmagico {
   background-color: rgb(255, 232, 23);
   cursor: pointer;
   border: none;
-  padding: 20px 30px; /* Ajusta el tamaño del botón aquí */
+  padding: 20px 30px; /* Ajusta el tamaño del botón aquí para pantallas grandes */
   color: rgb(0, 0, 0);
-  font-size: 20px; /* Ajusta el tamaño del texto aquí */
+  font-size: 20px; /* Ajusta el tamaño del texto aquí para pantallas grandes */
   font-weight: bold;
   position: relative;
   border-radius: 10px;
   text-decoration: none;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .botonmagico::before {
@@ -36,5 +37,13 @@
   }
   100% {
     background-position: 0 0;
+  }
+}
+
+/* Estilos para el botón mágico en pantallas pequeñas */
+@media (max-width: 768px) {
+  .botonmagico {
+    padding: 10px 15px; /* Ajusta el tamaño del botón aquí para pantallas pequeñas */
+    font-size: 12px; /* Ajusta el tamaño del texto aquí para pantallas pequeñas */
   }
 }

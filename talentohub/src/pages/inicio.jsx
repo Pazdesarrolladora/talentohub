@@ -31,8 +31,8 @@ const Inicio = () => {
       <br />
       </div>
       <div className="container">
-        <div className="row">
-          <div className="col-12 col-md-6 col-lg-3" >
+        <div className="row justify-content-center">
+          <div className="col-10 col-md-6 col-lg-3" >
             <CardDemo
               imagen={
                 "https://res.cloudinary.com/dcwloh062/image/upload/v1697081457/Web_search-cuate_pumjen.png"
@@ -45,7 +45,7 @@ const Inicio = () => {
               enlace={"paginasweb"}
             />
           </div>
-          <div className="col-12 col-md-6 col-lg-3">
+          <div className="col-10 col-md-6 col-lg-3">
             <CardDemo
               imagen={
                 "https://res.cloudinary.com/dcwloh062/image/upload/v1697081457/Marketing_consulting-cuate_rshjbc.png"
@@ -59,7 +59,7 @@ const Inicio = () => {
             />
           </div>
 
-          <div className="col-12 col-md-6 col-lg-3">
+          <div className="col-10 col-md-6 col-lg-3">
             <CardDemo
               imagen={
                 "https://res.cloudinary.com/dcwloh062/image/upload/v1697081456/Growing-cuate_z9snqs.png"
@@ -72,7 +72,7 @@ const Inicio = () => {
               enlace={"crecimientodemarca"}
             />
           </div>
-          <div className="col-12 col-md-6 col-lg-3">
+          <div className="col-10 col-md-6 col-lg-3">
             <CardDemo
               imagen={
                 "https://res.cloudinary.com/dcwloh062/image/upload/v1697081456/Social_ideas-cuate_yrcaod.png"

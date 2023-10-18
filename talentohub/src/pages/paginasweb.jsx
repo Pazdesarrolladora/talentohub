@@ -15,8 +15,8 @@ const Paginasweb = () => {
        imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697560370/ecommerce_a6tpv5.png"/>
       </div>
       <div className="container">
-        <div className="row">
-          <div className="col-12 col-lg-4 ">
+        <div className="row justify-content-center">
+          <div className="col-11 col-lg-4 ">
             <Cardconbotones
               imagen={
                 "https://res.cloudinary.com/dcwloh062/image/upload/v1697082385/Website_Creator-rafiki_ksaky1.png"
@@ -36,7 +36,7 @@ const Paginasweb = () => {
               referencia={"http://api.whatsapp.com/send?phone=56945111875"}
             />
           </div>
-          <div className="col-12 col-lg-4 ">
+          <div className="col-11 col-lg-4 ">
             <Cardconbotones
               imagen={
                 "https://res.cloudinary.com/dcwloh062/image/upload/v1697082385/Online_wishes_list-rafiki_vgclwr.png"
@@ -61,7 +61,7 @@ const Paginasweb = () => {
             />
           </div>
           
-          <div className="col-12 col-lg-4">
+          <div className="col-11 col-lg-4">
             <Cardconbotones
               imagen={
                 "https://res.cloudinary.com/dcwloh062/image/upload/v1697082385/Rocket-rafiki_zdoec3.png"

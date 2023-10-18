@@ -72,5 +72,30 @@ ul li a:focus:after {
   opacity: 1;
 }
 
+.navbar-nav li a {
+  font-weight: 700; /* Ajusta el valor según tus necesidades */
+  font-size: 15px;
+ 
+}
+/* Estilo para alinear elementos a la derecha en la barra de navegación */
+.navbar-nav li.nav-item.ml-auto {
+  margin-left: 500px;
+}
 
+@media (max-width: 768px) {
+  .navbar-toggler {
+    background-color: #ffff24;
+  }
 
+  .navbar-collapse {
+    background-color: #bebebe;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  /* Estilo para el logo en pantalla pequeña */
+  .logo-img {
+    width: 55px; /* Ajusta el tamaño del logo según tus necesidades en pantalla pequeña */
+    height: 50px; /* Ajusta la altura del logo según tus necesidades en pantalla pequeña */
+  }
+}
