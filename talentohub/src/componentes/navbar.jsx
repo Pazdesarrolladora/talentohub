@@ -23,9 +23,9 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ms-auto">
+          <ul className="navbar-nav ms-auto"style={{ fontFamily: 'Poppins, sans-serif' }}>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/" style={{ fontFamily: 'Poppins, sans-serif' }}>
+                <a className="nav-link active" aria-current="page" href="/" >
                   Inicio
                 </a>
               </li>
@@ -52,7 +52,7 @@ const Navbar = () => {
                   className="nav-link active"
                   aria-current="page"
                   href="publicidad"
-                  style={{ fontFamily: 'Poppins, sans-serif' }}
+                  
                 >
                   Publicidad
                 </a>
@@ -72,7 +72,7 @@ const Navbar = () => {
                   aria-current="page"
                   href="redessociales"
                 >
-                  RRSS
+                  rrss
                 </a>
               </li>
               <li className="nav-item">
@@ -80,7 +80,7 @@ const Navbar = () => {
                   className="nav-link active"
                   aria-current="page"
                   href="contacto"
-                  style={{ fontFamily: 'Poppins, sans-serif' }}
+                  
                 >
                   Contacto
                 </a>
