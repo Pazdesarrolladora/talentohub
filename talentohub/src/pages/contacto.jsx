@@ -1,24 +1,46 @@
-import CarrucelPaginas from "../componentes/carrucelpaginas";
-import CarruselContactanos from "../componentes/carruselContactanos";
+// Contacto.js
+
+import React, { useState } from 'react';
 import Footer from "../componentes/footer";
 import Navbar from "../componentes/navbar";
+import "../css/contaco.css";
+import CarrucelPaginas  from "../componentes/carrucelpaginas";
+import Form from '../componentes/Form';
 
 const Contacto = () => {
+  const [formValues, setFormValues] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormValues({
+      ...formValues,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Aquí deberías implementar la lógica para enviar el formulario al backend
+    // Puedes usar fetch o Axios para hacer una solicitud POST al servidor
+    console.log('Formulario enviado:', formValues);
+  };
+
   return (
     <>
       <Navbar />
-      <div className="container">
-          <div className="row">
-      <div className="mb-3">
-  <label for="exampleFormControlInput1" className="form-label">Email address</label>
-  <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
-</div>
-<div class="mb-3">
-  <label for="exampleFormControlTextarea1" className="form-label">Example textarea</label>
-  <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-</div>
-</div>
-</div>
+      <CarrucelPaginas
+        imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697560376/Puandmar_enr1bo.png"
+      />
+      <div className="container-fluid">
+        <div className="row">
+          <Form onSubmit={handleSubmit} onChange={handleInputChange} values={formValues} />
+        </div>
+      </div>
+      <br />
       <Footer />
     </>
   );

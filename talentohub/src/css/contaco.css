@@ -1,0 +1,12 @@
+
+
+.containerWithBackground {
+    background-image: url('https://res.cloudinary.com/dcwloh062/image/upload/v1697599197/wepik-export-20231018031905DdUA_dat3vs.png');
+    background-size: cover; /* Ajusta según tus necesidades */
+    background-position: center; /* Ajusta según tus necesidades */
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    padding: 20px; /* Ajusta según tus necesidades */
+    border-radius: 10px; /* Ajusta según tus necesidades */
+  }
+  
