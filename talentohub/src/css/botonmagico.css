@@ -1,6 +1,6 @@
 /* Estilos para el botón mágico en pantallas grandes */
 .botonmagico {
-  background-color: rgb(255, 232, 23);
+  background-color:#fbfb1e;
   cursor: pointer;
   border: none;
   padding: 20px 30px; /* Ajusta el tamaño del botón aquí para pantallas grandes */
