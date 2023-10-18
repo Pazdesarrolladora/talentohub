@@ -1,7 +1,8 @@
 import Navbar from "../componentes/navbar";
 import Footer from "../componentes/footer";
 import CarrucelPaginas from "../componentes/carrucelpaginas";
-import CarruselContactanos from "../componentes/carruselContactanos";
+import "../css/Quienessomos.css"
+
 
 
 

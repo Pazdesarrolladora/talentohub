@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faLinkedin,faGithub,faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import logo from "../imagenes/TH.png"
 import "../css/footer.css"
 
@@ -15,12 +15,23 @@ const Footer = () => {
 
       </a>
   
-      <ul className="nav col-md-2  nav redes-sociales">
-        <li className="nav-item"><a href="#" className="nav-link px-2 text-white"><FontAwesomeIcon icon={faFacebook} />  </a></li>
-        <li className="nav-item"><a href="#" className="nav-link px-2 text-white"><FontAwesomeIcon icon={faInstagram} /> </a></li>
-        <li className="nav-item"><a href="#" className="nav-link px-2 text-white"><FontAwesomeIcon icon={faLinkedin} /> </a></li>
- 
-      </ul>
+      <div className="redes-sociales">
+            <a href="URL_de_Tu_Facebook" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faFacebook} className="icono-social2" />
+            </a>
+            <a href="URL_de_Tu_Twitter" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} className="icono-social2" />
+            </a>
+            <a href="URL_de_Tu_Instagram" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faInstagram} className="icono-social2" />
+            </a>
+            <a href="URL_de_Tu_Instagram" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faGithub} className="icono-social2" />
+            </a>
+            <a href="http://api.whatsapp.com/send?phone=56945111875" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faWhatsapp} className="icono-social2" />
+            </a>
+          </div>
     </footer>
   </div>
   </>

@@ -35,7 +35,7 @@ const Formulario = () => {
       <form id="form" onSubmit={handleSubmit}>
       <div className="input-group mb-3">
           <span className="input-group-text">
-            <i className="fa fa-user"><FontAwesomeIcon icon={faUser} /></i> {/* Icono de usuario de Font Awesome */}
+            <i className="fa fa-user"><FontAwesomeIcon icon={faUser} /></i> 
           </span>
           
           <input
@@ -48,7 +48,7 @@ const Formulario = () => {
         </div>
         <div className="input-group mb-3">
           <span className="input-group-text">
-            <i className="fa fa-user"><FontAwesomeIcon icon={faUser} /></i> {/* Icono de usuario de Font Awesome */}
+            <i className="fa fa-user"><FontAwesomeIcon icon={faUser} /></i> 
           </span>
           <input
             type="text"
@@ -60,7 +60,7 @@ const Formulario = () => {
         </div>
         <div className="input-group mb-3">
           <span className="input-group-text">
-            <FontAwesomeIcon icon={faPhone} /> {/* Icono de usuario */}
+            <FontAwesomeIcon icon={faPhone} /> 
           </span>
           <input
             type="number"
@@ -72,7 +72,7 @@ const Formulario = () => {
         </div>
         <div className="input-group mb-3">
           <span className="input-group-text">
-            <FontAwesomeIcon icon={faEnvelope} /> {/* Icono de correo */}
+            <FontAwesomeIcon icon={faEnvelope} /> 
           </span>
           <input
             type="email"
@@ -86,7 +86,7 @@ const Formulario = () => {
         </div>
         <div className="input-group mb-3">
           <span className="input-group-text">
-            <FontAwesomeIcon icon={faComment} /> {/* Icono de mensaje */}
+            <FontAwesomeIcon icon={faComment} />
           </span>
           <textarea
             className="form-control"

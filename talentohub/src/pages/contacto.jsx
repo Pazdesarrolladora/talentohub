@@ -4,7 +4,7 @@ import CarrucelPaginas from "../componentes/carrucelpaginas";
 import Formulario from "../componentes/formulario";
 import logo from "../imagenes/TH.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Importa FontAwesome
-import { faFacebook, faLinkedin, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons'; // Importa los iconos de redes sociales
+import { faFacebook, faLinkedin, faInstagram, faGithub, faWhatsapp } from '@fortawesome/free-brands-svg-icons'; // Importa los iconos de redes sociales
 import "../css/Contacto.css";
 
 const Contacto = () => {
@@ -12,14 +12,14 @@ const Contacto = () => {
     <>
     <Navbar />
     <CarrucelPaginas
-      imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697560376/Puandmar_enr1bo.png"
+      imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697645715/wepik-export-20231018112627zN6o_cajqf6.png "
     />
     <div className="container contenedorformulario">
       <div className="row">
-        <div className="col-6">
+        <div className="col-12 col-md-6 mb-5">
           <Formulario />
         </div>
-        <div className="col-6 d-flex flex-column align-items-center justify-content-center">
+        <div className="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center">
           <img className="logoformulario" src={logo} alt="" />
 
           <div className="redes-sociales">
@@ -34,6 +34,9 @@ const Contacto = () => {
             </a>
             <a href="URL_de_Tu_Instagram" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} className="icono-social" />
+            </a>
+            <a href="http://api.whatsapp.com/send?phone=56945111875" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faWhatsapp} className="icono-social" />
             </a>
           </div>
         </div>
