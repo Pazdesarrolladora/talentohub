@@ -4,13 +4,18 @@ import CarrucelPaginas from "../componentes/carrucelpaginas";
 
 
 
-import Navbar from "../componentes/navbar";
-import CarrucelPaginas from "../componentes/carrucelpaginas";
-import CarruselContactanos from "../componentes/carruselContactanos";
-import Footer from "../componentes/footer";
 
-const QuienesSomos = () => {
+const Quienessomos = () => {
   return (
+    <>
+    <Navbar />
+    <div className="main-content">
+       <CarrucelPaginas
+       imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697593306/wepik-export-20231018013842JNF9_iznqn5.png"/>
+      </div>
+      <Footer />
+    </>
+  )
+}
 
-
-export default QuienesSomos;
+export default Quienessomos
