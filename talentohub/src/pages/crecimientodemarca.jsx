@@ -17,8 +17,8 @@ const crecimientodemarca = () => {
      imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697560371/CrecimientoMarca_kccltv.png"/>
       
         <div className="container">
-          <div className="row">
-            <div className="col-6">
+          <div className="row justify-content-center">
+            <div className="col-11 col-md-4">
             <Cardconbotones
               imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/Internet_on_the_go-amico_ctkuim.png"}
               titulo={"Plan Basico"}
@@ -35,7 +35,7 @@ const crecimientodemarca = () => {
               referencia={"redessociales"}
             />
             </div>
-            <div className="col-6">
+            <div className="col-11 col-md-4">
             <Cardconbotones
               imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/Next_option-rafiki_wkmcjg.png"}
               titulo={"Plan Premium"}
@@ -68,7 +68,7 @@ const crecimientodemarca = () => {
     </div>
     <div className="col-12 mb-4" >
       <CardLargas
-        imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697458202/wepik-export-20231016120822H2bc_subkpz.png"}
+        imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697557430/wepik-export-20231016120822H2bc_subkpz.png"}
         texto1={"Nuestro equipo altamente cualificado lleva a cabo la implementación del proyecto, ajustándose a la planificación estratégica inicial. Cada detalle se perfecciona cuidadosamente para garantizar que el resultado final cumpla con tus expectativas y necesidades específicas."}
       />
     </div>

@@ -12,12 +12,12 @@ const Cardconbotones = ({
 }) => {
   return (
     <>
-      <div className="card border border-0" style={style}>
-        <img src={imagen} className="card-img-top border border-0 " alt="..." />
+      <div className="card border border-0 d-flex flex-column align-items-center" style={style}>
+        <img src={imagen} className="card-img-top border border-0 " alt="..." style={{ maxWidth: "60%" }}/>
         <div className="card-body border border-0 d-flex flex-column justify-content-between">
           <h3 className="card-title text-center" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 'bolder', fontSize: '30px', color: 'black' }}>{titulo}</h3>
           {informacion.map((info, index) => (
-           <p key={index} className="card-text" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '16px', color: 'black' }}>
+           <p key={index} className="card-text" style={{ fontFamily: 'Poppins, sans-serif', fontSize: '16px', color: 'black',textAlign:"center" }}>
            {info}
          </p>
           ))}

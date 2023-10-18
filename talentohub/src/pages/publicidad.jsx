@@ -17,8 +17,8 @@ const Publicidad = () => {
       <CarrucelPaginas
      imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697560376/Puandmar_enr1bo.png"/>
         <div className="container">
-          <div className="row">
-            <div className="col-4">
+          <div className="row justify-content-center">
+            <div className="col-11 col-md-4">
               <Cardconbotones
                 imagen={
                   "https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/brand_loyalty-pana_tlithf.png"
@@ -34,7 +34,7 @@ const Publicidad = () => {
                 referencia={"referencia"}
               />
             </div>
-            <div className="col-4">
+            <div className="col-11 col-md-4">
               <Cardconbotones
                 imagen={
                   "https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/Holding_the_arrow-rafiki_kmsmef.png"
@@ -51,7 +51,7 @@ const Publicidad = () => {
                 referencia={"referencia"}
               />
             </div>
-            <div className="col-4">
+            <div className="col-11 col-md-4">
               <Cardconbotones
                 imagen={
                   "https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/Success_factors-amico_zfmein.png"
@@ -82,7 +82,7 @@ const Publicidad = () => {
     </div>
     <div className="col-12 mb-4" >
       <CardLargas
-        imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697458202/wepik-export-20231016120822H2bc_subkpz.png"}
+        imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697557430/wepik-export-20231016120822H2bc_subkpz.png"}
         texto1={"Nuestro equipo altamente cualificado lleva a cabo la implementación del proyecto, ajustándose a la planificación estratégica inicial. Cada detalle se perfecciona cuidadosamente para garantizar que el resultado final cumpla con tus expectativas y necesidades específicas."}
       />
     </div>

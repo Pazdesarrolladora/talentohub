@@ -17,8 +17,8 @@ const Redessociales = () => {
       />
       <div className="main-content">
         <div className="container">
-          <div className="row">
-            <div className="col-6">
+          <div className="row justify-content-center">
+            <div className="col-10 col-md-4">
               <Cardconbotones
                 imagen={
                   "https://res.cloudinary.com/dcwloh062/image/upload/v1697404365/Online_world-bro_okywew.png"
@@ -36,7 +36,7 @@ const Redessociales = () => {
                 referencia={"redessociales"}
               />
             </div>
-            <div className="col-6">
+            <div className="col-10 col-md-4">
               <Cardconbotones
                 imagen={
                   "https://res.cloudinary.com/dcwloh062/image/upload/v1697404364/Social_Growth-cuate_odloga.png"
@@ -68,7 +68,7 @@ const Redessociales = () => {
     </div>
     <div className="col-12 mb-4" >
       <CardLargas
-        imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697458202/wepik-export-20231016120822H2bc_subkpz.png"}
+        imagen={"https://res.cloudinary.com/dcwloh062/image/upload/v1697557430/wepik-export-20231016120822H2bc_subkpz.png"}
         texto1={"Nuestro equipo altamente cualificado lleva a cabo la implementación del proyecto, ajustándose a la planificación estratégica inicial. Cada detalle se perfecciona cuidadosamente para garantizar que el resultado final cumpla con tus expectativas y necesidades específicas."}
       />
     </div>
