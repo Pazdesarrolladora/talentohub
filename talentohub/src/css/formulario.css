@@ -4,8 +4,13 @@
     border-radius: 20px;
     padding: 40px;
     box-shadow: 1px 1px 8px 1px rgb(171, 171, 171);
+    transition: background-color 0.6s; 
     
 }
+.contenedorformulario:hover {
+    background-color: #c2c2c2; /* Cambia el color de fondo en hover */
+    
+  }
 
 .form-control{
     border: 0;
@@ -32,6 +37,7 @@
   /* Estilo para el botón en estado hover (cuando el mouse está sobre el botón) */
   .btn-success:hover {
     background-color: #fbfb1e; /* Cambia el color de fondo en hover */
+    color: #000000;
   }
   
   /* Estilo para los iconos de redes sociales en estado normal */
@@ -40,9 +46,11 @@
     font-size: 24px;
     color: #000000;
     transition: color 0.3s; /* Agrega una transición suave al color del icono */
+  
   }
   
   /* Estilo para los iconos de redes sociales en estado hover (cuando el mouse está sobre el icono) */
   .icono-social:hover {
     color: #fbfb1e; /* Cambia el color del icono en hover */
   }
+
