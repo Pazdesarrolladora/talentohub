@@ -11,7 +11,7 @@ const Quienessomos = () => {
     <Navbar />
     <div className="main-content">
        <CarrucelPaginas
-       imagen="https://res.cloudinary.com/dcwloh062/image/upload/bo_1px_solid_rgb:000,e_saturation:-15/v1697593306/wepik-export-20231018013842JNF9_iznqn5.png"/>
+       imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697645713/wepik-export-20231018160745yGpU_nq2vsq.png"/>
       </div>
      
       <Footer />
