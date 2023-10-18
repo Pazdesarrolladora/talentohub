@@ -1,10 +1,10 @@
-
 import "../css/navbar.css";
 import TH from "../imagenes/TH.png";
+
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg  ">
+      <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <div className="logo">
@@ -23,9 +23,9 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/" style={{ fontFamily: 'Poppins, sans-serif'}}>
+                <a className="nav-link active" aria-current="page" href="/" style={{ fontFamily: 'Poppins, sans-serif' }}>
                   Inicio
                 </a>
               </li>
@@ -35,7 +35,7 @@ const Navbar = () => {
                   aria-current="page"
                   href="quienes"
                 >
-                  ¿Quienes Somos?
+                  ¿Quiénes Somos?
                 </a>
               </li>
               <li className="nav-item">
@@ -52,7 +52,7 @@ const Navbar = () => {
                   className="nav-link active"
                   aria-current="page"
                   href="publicidad"
-                  style={{ fontFamily: 'Poppins, sans-serif'}}
+                  style={{ fontFamily: 'Poppins, sans-serif' }}
                 >
                   Publicidad
                 </a>
@@ -75,19 +75,17 @@ const Navbar = () => {
                   RRSS
                 </a>
               </li>
-              
               <li className="nav-item">
                 <a
                   className="nav-link active"
                   aria-current="page"
                   href="contacto"
-                  style={{ fontFamily: 'Poppins, sans-serif'}}
+                  style={{ fontFamily: 'Poppins, sans-serif' }}
                 >
                   Contacto
                 </a>
               </li>
             </ul>
-            
           </div>
         </div>
       </nav>
