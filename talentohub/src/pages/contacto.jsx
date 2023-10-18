@@ -33,7 +33,7 @@ const Contacto = () => {
     <>
       <Navbar />
       <CarrucelPaginas
-        imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697560376/Puandmar_enr1bo.png"
+        imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697645715/wepik-export-20231018112627zN6o_cajqf6.png"
       />
       <div className="container-fluid">
         <div className="row">
