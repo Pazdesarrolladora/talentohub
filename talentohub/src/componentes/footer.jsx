@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram, faLinkedin,faGithub,faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faLinkedin,faGithub,faWhatsapp,faTiktok } from '@fortawesome/free-brands-svg-icons';
 import logo from "../imagenes/TH.png"
 import "../css/footer.css"
 
@@ -16,20 +16,23 @@ const Footer = () => {
       </a>
   
       <div className="redes-sociales">
-            <a href="URL_de_Tu_Facebook" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/talentoHuB.latam/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faFacebook} className="icono-social2" />
             </a>
-            <a href="URL_de_Tu_Twitter" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/company/100112914" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} className="icono-social2" />
             </a>
-            <a href="URL_de_Tu_Instagram" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/talentohub.la/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} className="icono-social2" />
             </a>
-            <a href="URL_de_Tu_Instagram" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/talentohub" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} className="icono-social2" />
             </a>
             <a href="http://api.whatsapp.com/send?phone=56945111875" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faWhatsapp} className="icono-social2" />
+            </a>
+            <a href="https://www.tiktok.com/@talentohub" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faTiktok} className="icono-social2" />
             </a>
           </div>
     </footer>

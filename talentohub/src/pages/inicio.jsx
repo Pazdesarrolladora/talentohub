@@ -3,7 +3,7 @@ import Navbar from "../componentes/navbar";
 import CardDemo from "../componentes/carddemo";
 import Footer from "../componentes/footer";
 import CarruselContactanos from "../componentes/carruselContactanos";
-import "../css/Inicio.css"
+import "../css/inicio.css"
 import CarrucelPaginas from "../componentes/carrucelpaginas";
 
 
@@ -17,7 +17,7 @@ const Inicio = () => {
        imagen="https://res.cloudinary.com/dcwloh062/image/upload/v1697645891/wepik-export-20231018113359pEYI_eyljme.png"/>
         
         
-       <div className="Texto text-center "id="soluciones">
+       <div className="Texto text-center mt-5">
         <h1 style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 800, fontSize: '50px' }}>
         ¿QUÉ SOLUCIONES OFRECEMOS?
       </h1>

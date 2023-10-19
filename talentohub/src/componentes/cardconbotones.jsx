@@ -8,11 +8,11 @@ const Cardconbotones = ({
   titulo,
   informacion,
   referencia,
-  style,
+  
 }) => {
   return (
     <>
-      <div className="card border border-0 d-flex flex-column align-items-center" style={style}>
+      <div className="card border border-0 d-flex flex-column align-items-center mt-5" >
         <img src={imagen} className="card-img-top border border-0 " alt="..." style={{ maxWidth: "60%" }}/>
         <div className="card-body border border-0 d-flex flex-column justify-content-between">
           <h3 className="card-title text-center" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 'bolder', fontSize: '30px', color: 'black' }}>{titulo}</h3>
@@ -41,7 +41,7 @@ Cardconbotones.propTypes = {
   informacion: PropTypes.arrayOf(PropTypes.string).isRequired,
   botoninfo: PropTypes.string.isRequired,
   referencia: PropTypes.string.isRequired,
-  style: PropTypes.object.isRequired,
+ 
 };
 
 export default Cardconbotones;

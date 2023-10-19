@@ -11,6 +11,7 @@
   overflow: hidden;
   transition: transform 0.9s;
   margin: 0 auto;
+  margin-top: 20px;
   
  
 }
@@ -55,8 +56,9 @@
 /* Agregar estilos de tamaño de fuente para pantallas pequeñas */
 @media (max-width: 767px) {
   .cardLarga .additional-text p {
-    font-size: 16px;
-    margin: 20px;
+    font-size: 12px;
+    margin: 5px;
+   
     
   }
 }

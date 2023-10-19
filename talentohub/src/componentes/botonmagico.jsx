@@ -1,17 +1,15 @@
 import "../css/botonmagico.css"
-import PropTypes from 'prop-types';
+
 import { Link } from 'react-router-dom';
 
 
-const Botonmagico = ({ enlace }) => {
+const Botonmagico = () => {
   return (
-    <Link to={enlace} className="botonmagico"  style={{ fontFamily: 'Poppins, sans-serif' }}>
+    <Link to="/contacto" className="botonmagico" style={{ fontFamily: "'Poppins', sans-serif" }}>
       Contactanos
     </Link>
   );
 };
-Botonmagico.propTypes = {
-  enlace: PropTypes.string
-}
+
 
 export default Botonmagico

@@ -8,9 +8,18 @@
 }
 
 .icono-social2{
-  margin: 20px;
+  margin: 10px;
  color: aliceblue;
  width: 40px;
  height: 33px;
 }
 
+@media (max-width: 768px) {
+  .icono-social2 {
+   
+   margin-right: 10px;
+  
+   
+   
+  }
+}

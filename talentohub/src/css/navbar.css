@@ -10,9 +10,9 @@
   /* Agrega otros estilos de tu elección, como altura, fuente, colores, márgenes, etc. */
 }
 .logo-img {
-  width: 90px; /* Ajusta el ancho máximo de la imagen según tus necesidades */
-  height: 80px; /* Ajusta la altura máxima de la imagen según tus necesidades */
-  margin-left: 20px;
+  width: 120px; /* Ajusta el ancho máximo de la imagen según tus necesidades */
+  height: 110px; /* Ajusta la altura máxima de la imagen según tus necesidades */
+  margin-left: 50px;
 }
 
 /* Estilo para los enlaces en la barra de navegación */
@@ -74,7 +74,7 @@ ul li a:focus:after {
 
 .navbar-nav li a {
   font-weight: 700; /* Ajusta el valor según tus necesidades */
-  font-size: 15px;
+  font-size: 16px;
  
 }
 /* Estilo para alinear elementos a la derecha en la barra de navegación */
@@ -91,11 +91,13 @@ ul li a:focus:after {
     background-color: #efefef;
     border-radius: 10px;
     text-align: center;
+    border: 1px solid rgb(167, 167, 167);
   }
 
   /* Estilo para el logo en pantalla pequeña */
   .logo-img {
     width: 55px; /* Ajusta el tamaño del logo según tus necesidades en pantalla pequeña */
     height: 50px; /* Ajusta la altura del logo según tus necesidades en pantalla pequeña */
+    margin-left: 10px; /* Agrega un margen a la izquierda para mover el logo hacia la izquierda */
   }
 }

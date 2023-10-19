@@ -13,8 +13,7 @@ const CarruselContactanos = () => {
               alt="..."
             />
             <div className="carousel-content">
-              <BotonMagico 
-               enlace={"contacto"}/>
+              <BotonMagico />
             </div>
           </div>
         </div>

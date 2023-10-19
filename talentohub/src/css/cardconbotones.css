@@ -2,6 +2,7 @@
 .card {
     /* Establece tus estilos base aquí */
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    box-shadow: 0 6px 2px rgba(0, 0, 0, 0.2)
   }
   
   /* Establece los estilos para el hover */
@@ -45,4 +46,21 @@
   
   .whatsapp-button:hover {
     background-color: #128c7e;
+  }
+  @media (max-width: 1180px) {
+    .card {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .card-body {
+      /* Ajusta el tamaño del cuerpo de la tarjeta en pantallas pequeñas */
+      height: auto;
+    }
+  
+    .whatsapp-button {
+      /* Ajusta el ancho del botón en pantallas pequeñas */
+      width: 100%;
+    }
+    
   }

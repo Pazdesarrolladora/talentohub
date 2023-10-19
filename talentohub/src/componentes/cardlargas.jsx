@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types';
 import '../css/CardLargas.css';
 
-const CardLargas = ({ imagen, titulo, texto1 }) => {
+const CardLargas = ({ imagen, texto1 }) => {
   return (
     <div className="container">
       <div className="cardLarga">
         <img src={imagen} alt="Short description" />
         <div className="additional-text">
-          <h2>{titulo}</h2>
+          
           <p>{texto1}</p>
         </div>
       </div>
@@ -17,7 +17,7 @@ const CardLargas = ({ imagen, titulo, texto1 }) => {
 
 CardLargas.propTypes = {
   imagen: PropTypes.string.isRequired,
-  titulo: PropTypes.string.isRequired,
+ 
   texto1: PropTypes.string.isRequired,
 };
 
